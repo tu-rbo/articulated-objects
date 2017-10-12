@@ -20,3 +20,5 @@ Pliers   | <img src="./images/objects/pliers.JPG" alt="Pliers" height="100"> | <
 Rubik's cube   | <img src="./images/objects/rubikscube.JPG" alt="Rubik's cube" height="100"> | <img src="./images/models/rubikscube.gif" alt="RUbik's cube" height="100">
 Treasure box   | <img src="./images/objects/treasurebox.JPG" alt="Treasure box" height="100"> | 
 Tripod   | <img src="./images/objects/tripod.JPG" alt="Tripod" height="100"> | <img src="./images/models/tripod.gif" alt="Tripod" height="100">
+
+### Interactions
