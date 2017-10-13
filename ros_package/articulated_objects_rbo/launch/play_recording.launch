@@ -1,0 +1,35 @@
+<!-- Use this launch file in combination with: -->
+<!-- rviz -d launch/visualize_recording.rviz -->
+
+<launch>
+    <arg name="bag" default="treasurebox4_out.bag" doc="The rosbag file to run in an infinite loop"/>
+    <arg name="object" default="treasurebox" doc="The name of the object. It is used for the urdf, launch and namespace of jointstates"/>
+    <arg name="config" doc="The marker set id (name of configuration directory) of the specified rosbag. It is used to find the correct urdf and launch files."/>
+    <arg name="ftSensor" default="0" doc="Boolean. Was the ft-Sensor used in this recording?"/>
+    
+    <param name="use_sim_time" value="True" />
+    <param name="robot_description" textfile="$(find articulated_objects_rbo)/data/objects/$(arg object)/$(arg config)/$(arg object).urdf" />
+    
+    <include file="$(find openni2_launch)/launch/openni2.launch">
+        <arg name="load_driver" value="false" />
+        <arg name="publish_tf" value="false" />
+        <arg name="depth_registration" value="true" />
+    </include>
+    
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+        <remap from="/joint_states" to="/$(arg object)/joint_states"/>
+    </node>
+    
+    <include file="$(find articulated_objects_rbo)/data/objects/$(arg object)/$(arg config)/$(arg object).launch" />
+
+    <group if="$(arg ftSensor)">
+    <param name="ft_description" textfile="$(find articulated_objects_rbo)/data/objects/ftSensor/ftSensor.urdf" />
+    <node name="ft_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+         <remap from="robot_description" to="ft_description" />
+         <remap from="/joint_states" to="/ftSensor/joint_states"/>
+    </node>
+        <include file="$(find articulated_objects_rbo)/data/objects/ftSensor/ftSensor.launch" />
+    </group>
+    
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock -l $(find articulated_objects_rbo)/data/interactions/$(arg object)/$(arg bag)"/>
+</launch>
