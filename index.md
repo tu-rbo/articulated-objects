@@ -1,20 +1,26 @@
-# The RBO Dataset of Articulated Objects and Interactions
-
-The RBO dataset of articulated objects and interactions is a collection of 358~RGB-D video sequences (67:18~minutes) of humans manipulating 14 articulated objects under varying conditions (light, perspective, background, interaction). All sequences are annotated with ground truth of the poses of the rigid parts and the kinematic state of the articulated object (joint states) obtained with a motion capture system. We also provide complete kinematic models of these objects (kinematic structure and three-dimensional textured shape models). In 78~sequences the contact wrenches during the manipulation are also provided.
+The RBO dataset of articulated objects and interactions is a collection of 358 RGB-D video sequences (67:18 minutes) of humans manipulating 14 articulated objects under varying conditions (light, perspective, background, interaction). All sequences are annotated with ground truth of the poses of the rigid parts and the kinematic state of the articulated object (joint states) obtained with a motion capture system. We also provide complete kinematic models of these objects (kinematic structure and three-dimensional textured shape models). In 78 sequences the contact wrenches during the manipulation are also provided.
 
 ## Data Structure and Usage
 
-All data is availabe in two versions: as csv files and images or as [rosbags](http://wiki.ros.org/rosbag). Since there are already a lot of tools available for handling rosbags we recommend the later one.
+All data is availabe in two versions: as csv files and images or as [rosbags](http://wiki.ros.org/rosbag). Since there are already a lot of tools available for handling rosbags we recommend the later one. Both versions contain time series of:
+* RGB images
+* Depth images
+* Marker positions
+* Rigid body poses
+* Articulated object poses and configurations
+* Interaction wrenches
 
-You can download the data following the links below. We also provide the script downloader.py to simplify this process.
+You can download the data following the links below. We also provide the script [rbo_downloader.py](./scripts/rbo_downloader.py) to simplify this process.
 
 ### CSV files and images
 
+We provide the script [rbo_visualizer.py](./scripts/rbo_visualizer.py) to visualize the data and see how to use it.
+
 ### rosbags
 
-## Citation
+We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz) to visualize rosbags.
 
-TBD
+<!-- ## Citation -->
 
 ## Models of Articulated Objects
 
