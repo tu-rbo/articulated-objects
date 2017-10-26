@@ -4,13 +4,9 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
         - /TF1/Frames1
-        - /PointCloud21
-        - /MarkerArray1
-        - /Camera1
+        - /MarkerArray1/Status1
         - /Camera1/Visibility1
-        - /ft Model1
       Splitter Ratio: 0.623529
     Tree Height: 323
   - Class: rviz/Selection
@@ -78,9 +74,13 @@ Visualization Manager:
           Value: true
         ft0:
           Value: true
+        ftModel:
+          Value: true
         ftSensor:
           Value: true
         map:
+          Value: true
+        myframe:
           Value: true
         rb0:
           Value: true
@@ -121,7 +121,9 @@ Visualization Manager:
             {}
           ftSensor:
             ft0:
-              {}
+              ftModel:
+                myframe:
+                  {}
       Update Interval: 0
       Value: true
     - Class: rviz/MarkerArray
@@ -262,6 +264,14 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        ftModel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        myframe:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: ft Model
       Robot Description: ft_description
       TF Prefix: ""
@@ -269,15 +279,15 @@ Visualization Manager:
       Value: true
       Visual Enabled: true
     - Alpha: 1
-      Arrow Width: 0.5
+      Arrow Width: 0.1
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 2
+      Force Arrow Scale: 0.1
       Force Color: 204; 51; 51
       History Length: 1
       Name: WrenchStamped
       Topic: /ft_sensor/netft_data
-      Torque Arrow Scale: 2
+      Torque Arrow Scale: 0.6
       Torque Color: 204; 204; 51
       Unreliable: false
       Value: true
@@ -317,10 +327,10 @@ Visualization Manager:
         Z: 0.355383
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.3248
+      Pitch: 0.2598
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.37812
+      Yaw: 4.78314
     Saved: ~
 Window Geometry:
   Camera:
