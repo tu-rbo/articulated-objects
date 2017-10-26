@@ -21,6 +21,35 @@ import numpy as np
 import re
 from matplotlib import cm
 import itertools
+import time
+
+if sys.version_info[0] < 3:
+    import thread
+else:
+    import _thread
+    
+pause = False
+end_of_seq = False
+ack_end_of_seq = False
+
+def input_thread():
+    global pause, end_of_seq, ack_end_of_seq
+    while not end_of_seq:
+        if sys.version_info[0] < 3:
+            raw_input()
+        else:
+            input()
+        pause = not pause
+        if not end_of_seq:
+            if pause:
+                print "Paused. Press enter again to continue"
+        else:
+            ack_end_of_seq = True
+            print "EXIT"
+    if sys.version_info[0] < 3:
+        thread.exit()
+    else:
+        _thread.exit()
 
 if __name__ == "__main__":
     
@@ -125,9 +154,10 @@ if __name__ == "__main__":
         imgs['d'] = fig.figimage(im, cmap= mpl.get_cmap('gray'),vmin=0., vmax=3.0)
     if args.ft and ft_meas:
         print "Visualizing force-torque measurements"
-        f, axarr = mpl.subplots(2, sharex=True)
+        f, axarr = mpl.subplots(2, sharex=True)#, figsize=(4,3.1    ))
         fig = mpl.gcf()
         fig.canvas.set_window_title('Interaction Wrenches')
+        
         imgs['f'] = axarr[0]
         axarr[0].plot([], [], 'r')
         axarr[0].plot([], [], 'g')
@@ -138,7 +168,7 @@ if __name__ == "__main__":
         axarr[1].plot([], [], 'b')
         axarr[0].set_xlim(init_time - init_time, end_time - init_time)
         axarr[1].set_xlim(init_time - init_time, end_time - init_time)
-        f.suptitle('Interaction Wrenches')
+        #f.suptitle('Interaction Wrenches')
         f_max = np.amax(np.array(ft_values['fx'] + ft_values['fy'] + ft_values['fz']))
         f_min = np.amin(np.array(ft_values['fx'] + ft_values['fy'] + ft_values['fz']))
         axarr[0].set_ylim(f_min, f_max)
@@ -148,12 +178,16 @@ if __name__ == "__main__":
         axarr[0].legend(['fx','fy','fz'])
         axarr[1].legend(['tx','ty','tz'])        
         axarr[0].set_xlabel('Time [s]')
+        axarr[0].set_title('Interaction Force')      
         axarr[0].set_ylabel('F [N]')
         axarr[1].set_xlabel('Time [s]')
-        axarr[1].set_ylabel('T [Nm]')        
+        axarr[1].set_ylabel('T [Nm]')   
+        axarr[1].set_title('Interaction Torque')       
+        fig.tight_layout()   
+        
     if args.js:
         print "Visualizing joint state measurements"
-        fig = mpl.figure()
+        fig = mpl.figure()#figsize=(4,3    ))
         fig = mpl.gcf()
         fig.canvas.set_window_title('Joint States')
         ax = fig.add_subplot(111)    
@@ -175,89 +209,106 @@ if __name__ == "__main__":
         ax.set_xlabel('Time [s]')
         ax.set_ylabel('Joint state [m or rad]')
         ax.legend(js_values.keys())
-        fig.suptitle('Joint States')
+        ax.set_title('Joint States')
+        fig.tight_layout()   
     
     #Display the data in chuncks of 1/30 secs
     prev_display_time = init_time
     display_time = init_time
+    
+    if sys.version_info[0] < 3:
+        thread.start_new_thread(input_thread, ())
+    else:
+        _thread.start_new_thread(input_thread, ())
+        
+    print "Press enter to pause/unpause the visualization"
+    global pause
     while display_time <= end_time:
-        img = None
-        if args.rgb:
-            for f in rgbs:   
-                f_time = float(re.search('-(.+?).png', f).group(1))
-                if  f_time > prev_display_time and f_time <= display_time:
-                    #print f
-                    im=mpl.imread(f)
-                    imgs['rgb'].set_data(im)
-                elif f_time > display_time:
-                    break
-        if args.d:
-            for f in ds:            
-                f_time = float(re.search('-(.+?).txt', f).group(1))
-                if  f_time > prev_display_time and f_time <= display_time:
-                    #print f
-                    im=np.loadtxt(f)
-                    imgs['d'].set_data(im)
-                elif f_time > display_time:
-                    break
-                    
-        if args.ft and ft_meas:
-            new_data_x = []
-            new_data_fx = []
-            new_data_fy = []
-            new_data_fz = []
-            new_data_tx = []
-            new_data_ty = []
-            new_data_tz = []
-            fts = csv.reader(open(args.interaction_dir + '/ft_sensor_netft_data.csv'))
-            fts_it = fts.__iter__()
-            fts_it.next()
-            for ft in fts_it:
-                ft_time = float(ft[2])/1e9
-                if  ft_time > prev_display_time and ft_time <= display_time:
-                    new_data_x += [ft_time - init_time]
-                    new_data_fx += [float(ft[4])]
-                    new_data_fy += [float(ft[5])]
-                    new_data_fz += [float(ft[6])]
-                    new_data_tx += [float(ft[7])]
-                    new_data_ty += [float(ft[8])]
-                    new_data_tz += [float(ft[9])]
-                elif ft_time > display_time:
-                    break
-            imgs['f'].lines[0].set_xdata(np.append(imgs['f'].lines[0].get_xdata(), new_data_x))
-            imgs['f'].lines[0].set_ydata(np.append(imgs['f'].lines[0].get_ydata(), new_data_fx))
-            imgs['f'].lines[1].set_xdata(np.append(imgs['f'].lines[1].get_xdata(), new_data_x))
-            imgs['f'].lines[1].set_ydata(np.append(imgs['f'].lines[1].get_ydata(), new_data_fy))
-            imgs['f'].lines[2].set_xdata(np.append(imgs['f'].lines[2].get_xdata(), new_data_x))
-            imgs['f'].lines[2].set_ydata(np.append(imgs['f'].lines[2].get_ydata(), new_data_fz))
-            imgs['t'].lines[0].set_xdata(np.append(imgs['t'].lines[0].get_xdata(), new_data_x))
-            imgs['t'].lines[0].set_ydata(np.append(imgs['t'].lines[0].get_ydata(), new_data_tx))
-            imgs['t'].lines[1].set_xdata(np.append(imgs['t'].lines[1].get_xdata(), new_data_x))
-            imgs['t'].lines[1].set_ydata(np.append(imgs['t'].lines[1].get_ydata(), new_data_ty))
-            imgs['t'].lines[2].set_xdata(np.append(imgs['t'].lines[2].get_xdata(), new_data_x))
-            imgs['t'].lines[2].set_ydata(np.append(imgs['t'].lines[2].get_ydata(), new_data_tz))
-            
-        if args.js:
-            for i in range(len(js_values.keys())):
-                new_data_x = []
-                new_data_y = []
-                jss = csv.reader(open(glob.glob(args.interaction_dir + '/*_joint_states.csv')[0]))
-                jss_it = jss.__iter__()
-                jss_it.next()
-                for js in jss_it:
-                    js_time = float(js[2])/1e9
-                    if  js_time > prev_display_time and js_time <= display_time:
-                        new_data_x += [js_time - init_time] 
-                        new_data_y += [float(js[4 + num_j + i])]
-                    elif js_time > display_time:
+        if not pause:
+            img = None
+            if args.rgb:
+                for f in rgbs:   
+                    f_time = float(re.search('-(.+?).png', f).group(1))
+                    if  f_time > prev_display_time and f_time <= display_time:
+                        #print f
+                        im=mpl.imread(f)
+                        imgs['rgb'].set_data(im)
+                    elif f_time > display_time:
                         break
-                imgs['js'].lines[i].set_xdata(np.append(imgs['js'].lines[i].get_xdata(), new_data_x))
-                imgs['js'].lines[i].set_ydata(np.append(imgs['js'].lines[i].get_ydata(), new_data_y))
+            if args.d:
+                for f in ds:            
+                    f_time = float(re.search('-(.+?).txt', f).group(1))
+                    if  f_time > prev_display_time and f_time <= display_time:
+                        #print f
+                        im=np.loadtxt(f)
+                        imgs['d'].set_data(im)
+                    elif f_time > display_time:
+                        break
+                        
+            if args.ft and ft_meas:
+                new_data_x = []
+                new_data_fx = []
+                new_data_fy = []
+                new_data_fz = []
+                new_data_tx = []
+                new_data_ty = []
+                new_data_tz = []
+                fts = csv.reader(open(args.interaction_dir + '/ft_sensor_netft_data.csv'))
+                fts_it = fts.__iter__()
+                fts_it.next()
+                for ft in fts_it:
+                    ft_time = float(ft[2])/1e9
+                    if  ft_time > prev_display_time and ft_time <= display_time:
+                        new_data_x += [ft_time - init_time]
+                        new_data_fx += [float(ft[4])]
+                        new_data_fy += [float(ft[5])]
+                        new_data_fz += [float(ft[6])]
+                        new_data_tx += [float(ft[7])]
+                        new_data_ty += [float(ft[8])]
+                        new_data_tz += [float(ft[9])]
+                    elif ft_time > display_time:
+                        break
+                imgs['f'].lines[0].set_xdata(np.append(imgs['f'].lines[0].get_xdata(), new_data_x))
+                imgs['f'].lines[0].set_ydata(np.append(imgs['f'].lines[0].get_ydata(), new_data_fx))
+                imgs['f'].lines[1].set_xdata(np.append(imgs['f'].lines[1].get_xdata(), new_data_x))
+                imgs['f'].lines[1].set_ydata(np.append(imgs['f'].lines[1].get_ydata(), new_data_fy))
+                imgs['f'].lines[2].set_xdata(np.append(imgs['f'].lines[2].get_xdata(), new_data_x))
+                imgs['f'].lines[2].set_ydata(np.append(imgs['f'].lines[2].get_ydata(), new_data_fz))
+                imgs['t'].lines[0].set_xdata(np.append(imgs['t'].lines[0].get_xdata(), new_data_x))
+                imgs['t'].lines[0].set_ydata(np.append(imgs['t'].lines[0].get_ydata(), new_data_tx))
+                imgs['t'].lines[1].set_xdata(np.append(imgs['t'].lines[1].get_xdata(), new_data_x))
+                imgs['t'].lines[1].set_ydata(np.append(imgs['t'].lines[1].get_ydata(), new_data_ty))
+                imgs['t'].lines[2].set_xdata(np.append(imgs['t'].lines[2].get_xdata(), new_data_x))
+                imgs['t'].lines[2].set_ydata(np.append(imgs['t'].lines[2].get_ydata(), new_data_tz))
                 
+            if args.js:
+                for i in range(len(js_values.keys())):
+                    new_data_x = []
+                    new_data_y = []
+                    jss = csv.reader(open(glob.glob(args.interaction_dir + '/*_joint_states.csv')[0]))
+                    jss_it = jss.__iter__()
+                    jss_it.next()
+                    for js in jss_it:
+                        js_time = float(js[2])/1e9
+                        if  js_time > prev_display_time and js_time <= display_time:
+                            new_data_x += [js_time - init_time] 
+                            new_data_y += [float(js[4 + num_j + i])]
+                        elif js_time > display_time:
+                            break
+                    imgs['js'].lines[i].set_xdata(np.append(imgs['js'].lines[i].get_xdata(), new_data_x))
+                    imgs['js'].lines[i].set_ydata(np.append(imgs['js'].lines[i].get_ydata(), new_data_y))
+                    
+            
+            mpl.pause(1.0/30.0)#Cannot cope with this frame rate
+            mpl.draw()
+            prev_display_time = display_time
+            display_time += 1.0/30.0
+        else:
+            mpl.pause(0.5)
         
-        mpl.pause(1.0/30.0)#Cannot cope with this frame rate
-        mpl.draw()
-        prev_display_time = display_time
-        display_time += 1.0/30.0
-        
+    global end_of_seq, ack_end_of_seq
+    end_of_seq = True
+    print "End of sequence. Press enter to end"  
+    while not ack_end_of_seq:
+        mpl.pause(0.5)
     exit()

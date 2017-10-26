@@ -16,7 +16,7 @@ import errno
 import csv
 import ntpath
 
-dataset_url = "http://ycb-benchmarks.s3-website-us-east-1.amazonaws.com/data/"
+dataset_url = "https://zenodo.org/api/files/bb4feec9-cc8a-4b8c-8dcf-8a0e380da7a2/"
 interactions_index_url = dataset_url + "interactions_index.csv"
     
 def mkdir_p(path):
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     if args.ros: print "Downloading ROS bags instead of raw sensor data"
     
     #Create the directory structure
-    print "Creating directory structure for the dataset at: " + args.output_dir + '/rbo_dataset'
+    print "Directory structure for the dataset at: " + args.output_dir + '/rbo_dataset'
     mkdir_p(args.output_dir + '/rbo_dataset')
     mkdir_p(args.output_dir + '/rbo_dataset/objects')
     mkdir_p(args.output_dir + '/rbo_dataset/interactions')
@@ -130,17 +130,16 @@ if __name__ == "__main__":
     for name in args.objects:
         if name not in all_objects:
             print "Wrong object name passed: " + name    
-        elif not check_url(dataset_url + name + '.zip'):
+        elif not check_url(dataset_url + name + '.tar.gz'):
             print "Connection error! Cannot download model of " + name
         else:
-            model_file = name + '.zip'
+            model_file = name + '.tar.gz'
             download_file(dataset_url + model_file, args.output_dir + '/rbo_dataset/objects/' + model_file)
             if not args.no_decomp:
                 extract_tgz(args.output_dir + model_file, args.output_dir + name)
-    
-    
+            
     #Download the .csv with the information of the interactions
-    ii_filename = args.output_dir + '/rbo_dataset/interactions_index.csv'
+    ii_filename = args.output_dir + '/rbo_dataset/interactions/interactions_index.csv'
     if not os.path.isfile(ii_filename):
         print "Downloading dataset index"
         if not check_url(interactions_index_url):
@@ -170,27 +169,28 @@ if __name__ == "__main__":
             ii = csv.reader(open(ii_filename))
             for i in ii:
                 if i[1] == inter:
-                    interaction_file = 'interactions/' + i[1] + '/' + i[0] + ['.zip','.bag'][args.ros]
-                    interaction_folder = 'rbo_dataset/interactions/' + i[1] + '/' + i[0]
+                    interaction_file =  i[0] + ['.tar.gz','.bag'][args.ros]
+                    interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1]
+                    interaction_subfolder = interaction_obj_folder + '/' + i[0]
                     if not check_url(dataset_url + interaction_file):
                         print "Connection error! Cannot download interaction " + interaction_file
                     else:                        
-                        download_file(dataset_url + interaction_file, args.output_dir + interaction_file)
+                        download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                         if not args.no_decomp and not args.ros:
-                            extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_folder)
+                            extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_subfolder)
         #inter is a specific interaction
         elif inter in all_interactions:
             print "Download the interaction " + inter
             object_name_int = inter[0:-2]
-            interaction_file = 'interactions/' + object_name_int + '/' + inter + ['.zip','.bag'][args.ros]         
-            interaction_folder = 'rbo_dataset/interactions/' + object_name_int + '/' + inter
+            interaction_file = inter + ['.tar.gz','.bag'][args.ros]     
+            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + object_name_int
+            interaction_subfolder = interaction_obj_folder + '/' + inter   
             if not check_url(dataset_url + interaction_file):
                 print "Connection error! Cannot download interaction " + interaction_file
             else:                        
-                download_file(dataset_url + interaction_file, args.output_dir + interaction_file)
+                download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                 if not args.no_decomp and not args.ros:
-                    extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_folder)
-                #TODO: Extract into right folder
+                    extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_subfolder)
         else:
             for prop_id in props_dict:
                 if inter in props_dict[prop_id]:
@@ -198,11 +198,12 @@ if __name__ == "__main__":
                     ii = csv.reader(open(ii_filename))
                     for i in ii:
                         if i[prop_id] == deparse_property(inter):
-                            interaction_file = 'interactions/' + i[1] + '/' + i[0] + ['.zip','.bag'][args.ros]
-                            interaction_folder = 'rbo_dataset/interactions/' + i[1] + '/' + i[0]
+                            interaction_file =  i[0] + ['.tar.gz','.bag'][args.ros]
+                            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1]
+                            interaction_subfolder = interaction_obj_folder + '/' + i[0]
                             if not check_url(dataset_url + interaction_file):
                                 print "Connection error! Cannot download interaction " + interaction_file
                             else:                        
-                                download_file(dataset_url + interaction_file, args.output_dir + interaction_file)
+                                download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                                 if not args.no_decomp and not args.ros:
-                                    extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_folder)
+                                    extract_tgz(args.output_dir + interaction_file, args.output_dir + interaction_subfolder)
