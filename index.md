@@ -10,19 +10,26 @@ All data is availabe in two versions: as csv files and images or as [rosbags](ht
 * Articulated object poses and configurations
 * Interaction wrenches
 
-You can download the data following the links below. We also provide the script [rbo_downloader.py](./scripts/rbo_downloader.py) to simplify this process. You can define the downloading root folder (option `--output_dir`), the objects models and/or interaction sequences to download (options `--objects` and `--interactions`), and if the downloaded files should be automatically decompressed (option `--no_decomp`, default is auto-decomp). You can also download groups of interactions per property, e.g. `with_ft` for all interactions with force/torque (wrenches) measurements.
+You can download the data following the links below. We also provide the script [rbo_downloader.py](./scripts/rbo_downloader.py) to simplify this process. You can define the downloading root folder (option `--output_dir`), the objects models and/or interaction sequences to download (options `--objects` and `--interactions` with arguments), if you prefer to download rosbags instead of raw sensor data (option `--ros`), and if the downloaded files should be automatically decompressed (option `--no_decomp`, default is auto-decomp). You can also download groups of interactions per property, e.g. `with_ft` for all interactions with force/torque (wrenches) measurements. To see the complete options, use the argument `-h`.
 
-Example:
-`python rbo_downloader.py --output_dir ./mydatasetfolder --objects ikea globe --interactions dark`
-will download the models for the ikea furniture and the world globe and all the interactions with dark lighting conditions into the folder `mydatasetfolder`.
+For example, `python rbo_downloader.py --output_dir ./mydatasetfolder --objects ikea globe --interactions dark` will download the models for the ikea furniture and the world globe and all the interactions with dark lighting conditions into the folder `mydatasetfolder`.
 
 ### CSV files and images
 
-We provide the script [rbo_visualizer.py](./scripts/rbo_visualizer.py) to visualize the data and show how to read it and use it.
+We provide the script [rbo_visualizer.py](./scripts/rbo_visualizer.py) to visualize the data and show how to read it and use it. You can visualize the RGB, depth, force/torque (wrenches) and/or joint state values for an interaction. To use the script you just need to provide as argument the folder with the interaction files and the flags for the types of data to visualize (`--rgb`, `--d`, `--ft`, and/or `--js`). 
+
+For example, `python rbo_visualizer.py ./mydatasetfolder/interactions/ikea/ikea01_0 --rgb --js` will start the visualization of the RGB images and joint states of the interaction in the provided folder. You can pause/resume the visualization pressing `Enter` in the terminal.
+
 
 ### rosbags
 
-We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz) to visualize rosbags.
+We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz) to visualize rosbags and models. To visualize rosbags of interactions together with the models of the articulated object (and the stick with the force/torque sensor if used), execute:
+
+`cd yourcatkinfolder/articulated-objects-db/`
+
+`python launch/play_recording.py <interaction_name>`
+
+the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that you want to visualize. You can type `python launch/play_recording.py -h` to see additional help. It is also possible to play a recording without starting rviz, which allows the use of custom launch configurations, if required.
 
 <!-- ## Citation -->
 
