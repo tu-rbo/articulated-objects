@@ -11,6 +11,7 @@ All data is availabe in two versions: as csv files and images or as [rosbags](ht
 * Interaction wrenches
 
 You can download the data following the links below. We also provide the script [rbo_downloader.py](./scripts/rbo_downloader.py) to simplify this process. You can define the downloading root folder (option `--output_dir`), the objects models and/or interaction sequences to download (options `--objects` and `--interactions`), and if the downloaded files should be automatically decompressed (option `--no_decomp`, default is auto-decomp). You can also download groups of interactions per property, e.g. `with_ft` for all interactions with force/torque (wrenches) measurements.
+
 Example:
 `python rbo_downloader.py --output_dir ./mydatasetfolder --objects ikea globe --interactions dark`
 will download the models for the ikea furniture and the world globe and all the interactions with dark lighting conditions into the folder `mydatasetfolder`.
