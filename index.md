@@ -31,6 +31,16 @@ We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz)
 
 the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that you want to visualize. You can type `python launch/play_recording.py -h` to see additional help. It is also possible to play a recording without starting rviz, which allows the use of custom launch configurations, if required.
 
+## Contributing
+
+We are glad to augment our dataset with new models of articulated objects and/or sensor data of interactions with them. We can generate models of articulated objects from trajectories of the links tracked by a motion capture system (or any other 6D pose tracker) if you provide:
+* Shape models for each link
+* Transformation between the origin of the shape models and the tracked frames
+If your interaction data includes images, please provide also the pose of the camera wrt. the object.
+If you provide interaction wrenches, provide also the dynamic properties (mass, center of Mass, inertia matrix) of tool between the force/torque sensor and the object and the pose of the sensor wrt. object. 
+
+Please, contact Thomas Hoffmann (<thomas.hoffmann@tu-berlin.de>) to include your data into the dataset.
+
 <!-- ## Citation -->
 
 ## Models of Articulated Objects
