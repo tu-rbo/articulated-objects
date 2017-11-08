@@ -68,361 +68,361 @@ Object | Photo | Model
 
 Interaction | Object | File | Duration [seconds]
 -----------:|:------:|------|---------:
-0 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book01_o.bag "> book01_o.bag </a>| 12.7
-1 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book02_o.bag "> book02_o.bag </a>| 8.7
-2 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book03_o.bag "> book03_o.bag </a>| 11.0
-3 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book04_o.bag "> book04_o.bag </a>| 8.7
-4 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book05_o.bag "> book05_o.bag </a>| 8.6
-5 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book06_o.bag "> book06_o.bag </a>| 8.8
-6 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book07_o.bag "> book07_o.bag </a>| 8.7
-7 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book08_o.bag "> book08_o.bag </a>| 8.0
-8 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book09_o.bag "> book09_o.bag </a>| 10.1
-9 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book10_o.bag "> book10_o.bag </a>| 8.6
-10 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book11_o.bag "> book11_o.bag </a>| 8.4
-11 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book12_o.bag "> book12_o.bag </a>| 9.0
-12 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book13_o.bag "> book13_o.bag </a>| 9.4
-13 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book14_o.bag "> book14_o.bag </a>| 11.4
-14 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book15_o.bag "> book15_o.bag </a>| 6.8
-15 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book16_o.bag "> book16_o.bag </a>| 9.0
-16 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book17_o.bag "> book17_o.bag </a>| 11.3
-17 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book18_o.bag "> book18_o.bag </a>| 11.4
-18 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book19_o.bag "> book19_o.bag </a>| 7.9
-19 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book20_o.bag "> book20_o.bag </a>| 9.0
-20 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book22_o.bag "> book22_o.bag </a>| 15.4
-21 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book23_o.bag "> book23_o.bag </a>| 18.1
-22 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book25_o.bag "> book25_o.bag </a>| 26.9
-23 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book26_o.bag "> book26_o.bag </a>| 16.3
-24 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/ book27_o.bag "> book27_o.bag </a>| 38.9
-25 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet01_o.bag "> cabinet01_o.bag </a>| 15.1
-26 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet02_o.bag "> cabinet02_o.bag </a>| 14.4
-27 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet03_o.bag "> cabinet03_o.bag </a>| 8.2
-28 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet04_o.bag "> cabinet04_o.bag </a>| 11.5
-29 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet05_o.bag "> cabinet05_o.bag </a>| 13.3
-30 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet06_o.bag "> cabinet06_o.bag </a>| 12.0
-31 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet07_o.bag "> cabinet07_o.bag </a>| 11.9
-32 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet08_o.bag "> cabinet08_o.bag </a>| 11.1
-33 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet09_o.bag "> cabinet09_o.bag </a>| 19.8
-34 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet10_o.bag "> cabinet10_o.bag </a>| 15.2
-35 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet11_o.bag "> cabinet11_o.bag </a>| 11.7
-36 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet12_o.bag "> cabinet12_o.bag </a>| 16.5
-37 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet13_o.bag "> cabinet13_o.bag </a>| 9.6
-38 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet14_o.bag "> cabinet14_o.bag </a>| 13.0
-39 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet15_o.bag "> cabinet15_o.bag </a>| 15.7
-40 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet16_o.bag "> cabinet16_o.bag </a>| 12.7
-41 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet17_o.bag "> cabinet17_o.bag </a>| 12.8
-42 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet18_o.bag "> cabinet18_o.bag </a>| 9.0
-43 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet19_o.bag "> cabinet19_o.bag </a>| 10.5
-44 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet20_o.bag "> cabinet20_o.bag </a>| 14.0
-45 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet21_o.bag "> cabinet21_o.bag </a>| 12.6
-46 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet22_o.bag "> cabinet22_o.bag </a>| 16.0
-47 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet23_o.bag "> cabinet23_o.bag </a>| 16.6
-48 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet24_o.bag "> cabinet24_o.bag </a>| 11.6
-49 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet25_o.bag "> cabinet25_o.bag </a>| 14.2
-50 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cabinet26_o.bag "> cabinet26_o.bag </a>| 9.6
-51 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox01_o.bag "> cardboardbox01_o.bag </a>| 13.7
-52 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox02_o.bag "> cardboardbox02_o.bag </a>| 7.4
-53 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox03_o.bag "> cardboardbox03_o.bag </a>| 8.9
-54 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox04_o.bag "> cardboardbox04_o.bag </a>| 6.6
-55 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox05_o.bag "> cardboardbox05_o.bag </a>| 8.4
-56 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox06_o.bag "> cardboardbox06_o.bag </a>| 7.4
-57 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox07_o.bag "> cardboardbox07_o.bag </a>| 6.8
-58 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox08_o.bag "> cardboardbox08_o.bag </a>| 5.7
-59 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox09_o.bag "> cardboardbox09_o.bag </a>| 6.6
-60 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox10_o.bag "> cardboardbox10_o.bag </a>| 7.5
-61 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox11_o.bag "> cardboardbox11_o.bag </a>| 9.2
-62 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox12_o.bag "> cardboardbox12_o.bag </a>| 9.0
-63 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox13_o.bag "> cardboardbox13_o.bag </a>| 6.9
-64 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox14_o.bag "> cardboardbox14_o.bag </a>| 9.1
-65 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox15_o.bag "> cardboardbox15_o.bag </a>| 7.5
-66 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox16_o.bag "> cardboardbox16_o.bag </a>| 7.0
-67 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox17_o.bag "> cardboardbox17_o.bag </a>| 7.7
-68 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox18_o.bag "> cardboardbox18_o.bag </a>| 6.9
-69 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox19_o.bag "> cardboardbox19_o.bag </a>| 7.7
-70 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox20_o.bag "> cardboardbox20_o.bag </a>| 5.8
-71 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox21_o.bag "> cardboardbox21_o.bag </a>| 7.9
-72 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox22_o.bag "> cardboardbox22_o.bag </a>| 15.8
-73 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox23_o.bag "> cardboardbox23_o.bag </a>| 12.5
-74 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox24_o.bag "> cardboardbox24_o.bag </a>| 21.4
-75 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox25_o.bag "> cardboardbox25_o.bag </a>| 15.1
-76 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ cardboardbox26_o.bag "> cardboardbox26_o.bag </a>| 10.4
-77 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp01_o.bag "> clamp01_o.bag </a>| 13.0
-78 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp02_o.bag "> clamp02_o.bag </a>| 7.4
-79 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp03_o.bag "> clamp03_o.bag </a>| 10.6
-80 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp04_o.bag "> clamp04_o.bag </a>| 7.0
-81 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp05_o.bag "> clamp05_o.bag </a>| 7.5
-82 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp06_o.bag "> clamp06_o.bag </a>| 10.6
-83 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp07_o.bag "> clamp07_o.bag </a>| 8.1
-84 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp08_o.bag "> clamp08_o.bag </a>| 10.3
-85 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp09_o.bag "> clamp09_o.bag </a>| 5.9
-86 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp10_o.bag "> clamp10_o.bag </a>| 8.1
-87 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp11_o.bag "> clamp11_o.bag </a>| 8.4
-88 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp12_o.bag "> clamp12_o.bag </a>| 10.3
-89 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp13_o.bag "> clamp13_o.bag </a>| 6.5
-90 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp14_o.bag "> clamp14_o.bag </a>| 5.9
-91 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp15_o.bag "> clamp15_o.bag </a>| 7.2
-92 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp16_o.bag "> clamp16_o.bag </a>| 9.9
-93 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp17_o.bag "> clamp17_o.bag </a>| 7.7
-94 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp18_o.bag "> clamp18_o.bag </a>| 6.1
-95 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp19_o.bag "> clamp19_o.bag </a>| 8.6
-96 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp20_o.bag "> clamp20_o.bag </a>| 9.8
-97 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp22_o.bag "> clamp22_o.bag </a>| 11.7
-98 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp23_o.bag "> clamp23_o.bag </a>| 14.9
-99 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp24_o.bag "> clamp24_o.bag </a>| 11.5
-100 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp25_o.bag "> clamp25_o.bag </a>| 15.1
-101 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp26_o.bag "> clamp26_o.bag </a>| 13.3
-102 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/ clamp27_o.bag "> clamp27_o.bag </a>| 15.2
-103 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule01_o.bag "> foldingrule01_o.bag </a>| 20.1
-104 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule02_o.bag "> foldingrule02_o.bag </a>| 7.2
-105 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule03_o.bag "> foldingrule03_o.bag </a>| 6.9
-106 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule04_o.bag "> foldingrule04_o.bag </a>| 8.0
-107 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule05_o.bag "> foldingrule05_o.bag </a>| 9.3
-108 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule06_o.bag "> foldingrule06_o.bag </a>| 14.2
-109 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule07_o.bag "> foldingrule07_o.bag </a>| 8.0
-110 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule08_o.bag "> foldingrule08_o.bag </a>| 7.5
-111 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule09_o.bag "> foldingrule09_o.bag </a>| 5.9
-112 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule10_o.bag "> foldingrule10_o.bag </a>| 7.5
-113 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule11_o.bag "> foldingrule11_o.bag </a>| 8.4
-114 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule12_o.bag "> foldingrule12_o.bag </a>| 12.1
-115 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule13_o.bag "> foldingrule13_o.bag </a>| 8.2
-116 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule14_o.bag "> foldingrule14_o.bag </a>| 13.9
-117 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule15_o.bag "> foldingrule15_o.bag </a>| 9.4
-118 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule16_o.bag "> foldingrule16_o.bag </a>| 11.0
-119 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule17_o.bag "> foldingrule17_o.bag </a>| 11.4
-120 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule18_o.bag "> foldingrule18_o.bag </a>| 10.2
-121 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule19_o.bag "> foldingrule19_o.bag </a>| 6.2
-122 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule20_o.bag "> foldingrule20_o.bag </a>| 8.2
-123 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule21_o.bag "> foldingrule21_o.bag </a>| 44.0
-124 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule22_o.bag "> foldingrule22_o.bag </a>| 69.0
-125 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule23_o.bag "> foldingrule23_o.bag </a>| 67.0
-126 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule24_o.bag "> foldingrule24_o.bag </a>| 56.3
-127 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule25_o.bag "> foldingrule25_o.bag </a>| 52.2
-128 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/ foldingrule26_o.bag "> foldingrule26_o.bag </a>| 27.6
-129 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe01_o.bag "> globe01_o.bag </a>| 9.5
-130 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe02_o.bag "> globe02_o.bag </a>| 8.5
-131 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe03_o.bag "> globe03_o.bag </a>| 8.5
-132 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe04_o.bag "> globe04_o.bag </a>| 9.7
-133 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe05_o.bag "> globe05_o.bag </a>| 6.5
-134 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe06_o.bag "> globe06_o.bag </a>| 7.5
-135 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe07_o.bag "> globe07_o.bag </a>| 8.3
-136 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe08_o.bag "> globe08_o.bag </a>| 6.6
-137 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe09_o.bag "> globe09_o.bag </a>| 10.0
-138 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe10_o.bag "> globe10_o.bag </a>| 8.8
-139 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe11_o.bag "> globe11_o.bag </a>| 8.5
-140 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe12_o.bag "> globe12_o.bag </a>| 9.4
-141 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe13_o.bag "> globe13_o.bag </a>| 9.4
-142 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe14_o.bag "> globe14_o.bag </a>| 8.0
-143 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe15_o.bag "> globe15_o.bag </a>| 7.9
-144 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe16_o.bag "> globe16_o.bag </a>| 8.7
-145 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe17_o.bag "> globe17_o.bag </a>| 8.6
-146 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe18_o.bag "> globe18_o.bag </a>| 10.5
-147 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe19_o.bag "> globe19_o.bag </a>| 8.6
-148 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe20_o.bag "> globe20_o.bag </a>| 7.9
-149 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe21_o.bag "> globe21_o.bag </a>| 19.0
-150 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe22_o.bag "> globe22_o.bag </a>| 18.0
-151 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe23_o.bag "> globe23_o.bag </a>| 23.0
-152 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe24_o.bag "> globe24_o.bag </a>| 9.2
-153 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/ globe25_o.bag "> globe25_o.bag </a>| 14.1
-154 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea01_o.bag "> ikea01_o.bag </a>| 19.6
-155 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea02_o.bag "> ikea02_o.bag </a>| 7.4
-156 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea03_o.bag "> ikea03_o.bag </a>| 12.3
-157 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea04_o.bag "> ikea04_o.bag </a>| 7.7
-158 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea05_o.bag "> ikea05_o.bag </a>| 8.3
-159 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea06_o.bag "> ikea06_o.bag </a>| 11.0
-160 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea07_o.bag "> ikea07_o.bag </a>| 8.2
-161 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea08_o.bag "> ikea08_o.bag </a>| 2.7
-162 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea09_o.bag "> ikea09_o.bag </a>| 3.0
-163 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea10_o.bag "> ikea10_o.bag </a>| 5.9
-164 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea11_o.bag "> ikea11_o.bag </a>| 6.0
-165 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea12_o.bag "> ikea12_o.bag </a>| 9.8
-166 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea13_o.bag "> ikea13_o.bag </a>| 6.6
-167 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea14_o.bag "> ikea14_o.bag </a>| 5.4
-168 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea15_o.bag "> ikea15_o.bag </a>| 5.0
-169 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea16_o.bag "> ikea16_o.bag </a>| 6.2
-170 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea17_o.bag "> ikea17_o.bag </a>| 7.4
-171 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea18_o.bag "> ikea18_o.bag </a>| 7.5
-172 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea19_o.bag "> ikea19_o.bag </a>| 9.0
-173 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea20_o.bag "> ikea20_o.bag </a>| 7.2
-174 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea22_o.bag "> ikea22_o.bag </a>| 16.0
-175 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea23_o.bag "> ikea23_o.bag </a>| 14.8
-176 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea24_o.bag "> ikea24_o.bag </a>| 13.2
-177 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikea25_o.bag "> ikea25_o.bag </a>| 24.2
-178 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall01_o.bag "> ikeasmall01_o.bag </a>| 8.6
-179 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall02_o.bag "> ikeasmall02_o.bag </a>| 9.5
-180 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall03_o.bag "> ikeasmall03_o.bag </a>| 10.4
-181 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall04_o.bag "> ikeasmall04_o.bag </a>| 12.0
-182 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall05_o.bag "> ikeasmall05_o.bag </a>| 8.6
-183 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall06_o.bag "> ikeasmall06_o.bag </a>| 9.1
-184 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall07_o.bag "> ikeasmall07_o.bag </a>| 7.6
-185 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall08_o.bag "> ikeasmall08_o.bag </a>| 9.1
-186 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall09_o.bag "> ikeasmall09_o.bag </a>| 11.8
-187 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall10_o.bag "> ikeasmall10_o.bag </a>| 16.3
-188 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall11_o.bag "> ikeasmall11_o.bag </a>| 10.3
-189 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall12_o.bag "> ikeasmall12_o.bag </a>| 9.4
-190 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall13_o.bag "> ikeasmall13_o.bag </a>| 9.0
-191 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall14_o.bag "> ikeasmall14_o.bag </a>| 8.3
-192 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall15_o.bag "> ikeasmall15_o.bag </a>| 8.6
-193 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall16_o.bag "> ikeasmall16_o.bag </a>| 11.6
-194 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall17_o.bag "> ikeasmall17_o.bag </a>| 10.7
-195 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall18_o.bag "> ikeasmall18_o.bag </a>| 8.1
-196 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall19_o.bag "> ikeasmall19_o.bag </a>| 7.3
-197 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall20_o.bag "> ikeasmall20_o.bag </a>| 13.5
-198 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall21_o.bag "> ikeasmall21_o.bag </a>| 12.1
-199 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall22_o.bag "> ikeasmall22_o.bag </a>| 10.1
-200 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall23_o.bag "> ikeasmall23_o.bag </a>| 10.1
-201 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall24_o.bag "> ikeasmall24_o.bag </a>| 9.8
-202 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ ikeasmall25_o.bag "> ikeasmall25_o.bag </a>| 9.9
-203 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop01_o.bag "> laptop01_o.bag </a>| 6.2
-204 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop02_o.bag "> laptop02_o.bag </a>| 6.9
-205 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop03_o.bag "> laptop03_o.bag </a>| 6.6
-206 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop04_o.bag "> laptop04_o.bag </a>| 6.4
-207 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop05_o.bag "> laptop05_o.bag </a>| 6.2
-208 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop06_o.bag "> laptop06_o.bag </a>| 6.9
-209 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop07_o.bag "> laptop07_o.bag </a>| 4.2
-210 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop08_o.bag "> laptop08_o.bag </a>| 5.9
-211 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop09_o.bag "> laptop09_o.bag </a>| 7.5
-212 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop10_o.bag "> laptop10_o.bag </a>| 7.2
-213 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop11_o.bag "> laptop11_o.bag </a>| 9.6
-214 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop12_o.bag "> laptop12_o.bag </a>| 8.0
-215 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop13_o.bag "> laptop13_o.bag </a>| 4.5
-216 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop14_o.bag "> laptop14_o.bag </a>| 8.3
-217 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop15_o.bag "> laptop15_o.bag </a>| 7.3
-218 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop16_o.bag "> laptop16_o.bag </a>| 8.7
-219 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop17_o.bag "> laptop17_o.bag </a>| 7.4
-220 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop18_o.bag "> laptop18_o.bag </a>| 7.2
-221 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop19_o.bag "> laptop19_o.bag </a>| 9.1
-222 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop20_o.bag "> laptop20_o.bag </a>| 10.1
-223 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop22_o.bag "> laptop22_o.bag </a>| 14.9
-224 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop23_o.bag "> laptop23_o.bag </a>| 15.4
-225 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop24_o.bag "> laptop24_o.bag </a>| 23.2
-226 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop25_o.bag "> laptop25_o.bag </a>| 27.2
-227 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/ laptop26_o.bag "> laptop26_o.bag </a>| 25.2
-228 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave01_o.bag "> microwave01_o.bag </a>| 9.5
-229 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave02_o.bag "> microwave02_o.bag </a>| 8.7
-230 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave03_o.bag "> microwave03_o.bag </a>| 21.1
-231 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave04_o.bag "> microwave04_o.bag </a>| 18.0
-232 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave05_o.bag "> microwave05_o.bag </a>| 14.9
-233 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave06_o.bag "> microwave06_o.bag </a>| 7.7
-234 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave07_o.bag "> microwave07_o.bag </a>| 9.3
-235 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave08_o.bag "> microwave08_o.bag </a>| 9.5
-236 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave09_o.bag "> microwave09_o.bag </a>| 10.2
-237 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave10_o.bag "> microwave10_o.bag </a>| 10.4
-238 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave11_o.bag "> microwave11_o.bag </a>| 11.1
-239 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave12_o.bag "> microwave12_o.bag </a>| 8.2
-240 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave13_o.bag "> microwave13_o.bag </a>| 8.2
-241 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave14_o.bag "> microwave14_o.bag </a>| 9.7
-242 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave15_o.bag "> microwave15_o.bag </a>| 14.4
-243 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave16_o.bag "> microwave16_o.bag </a>| 10.3
-244 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave17_o.bag "> microwave17_o.bag </a>| 15.0
-245 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave18_o.bag "> microwave18_o.bag </a>| 9.2
-246 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave19_o.bag "> microwave19_o.bag </a>| 8.7
-247 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave20_o.bag "> microwave20_o.bag </a>| 10.6
-248 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave21_o.bag "> microwave21_o.bag </a>| 11.1
-249 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave22_o.bag "> microwave22_o.bag </a>| 6.5
-250 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave23_o.bag "> microwave23_o.bag </a>| 10.6
-251 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave24_o.bag "> microwave24_o.bag </a>| 9.9
-252 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/ microwave25_o.bag "> microwave25_o.bag </a>| 8.9
-253 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers01_o.bag "> pliers01_o.bag </a>| 7.4
-254 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers02_o.bag "> pliers02_o.bag </a>| 8.0
-255 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers03_o.bag "> pliers03_o.bag </a>| 6.3
-256 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers04_o.bag "> pliers04_o.bag </a>| 9.1
-257 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers05_o.bag "> pliers05_o.bag </a>| 11.1
-258 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers06_o.bag "> pliers06_o.bag </a>| 6.2
-259 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers07_o.bag "> pliers07_o.bag </a>| 7.8
-260 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers08_o.bag "> pliers08_o.bag </a>| 10.5
-261 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers09_o.bag "> pliers09_o.bag </a>| 6.9
-262 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers10_o.bag "> pliers10_o.bag </a>| 8.7
-263 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers11_o.bag "> pliers11_o.bag </a>| 10.1
-264 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers12_o.bag "> pliers12_o.bag </a>| 6.9
-265 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers13_o.bag "> pliers13_o.bag </a>| 5.8
-266 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers14_o.bag "> pliers14_o.bag </a>| 10.4
-267 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers15_o.bag "> pliers15_o.bag </a>| 6.6
-268 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers16_o.bag "> pliers16_o.bag </a>| 8.5
-269 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers17_o.bag "> pliers17_o.bag </a>| 7.8
-270 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers18_o.bag "> pliers18_o.bag </a>| 5.2
-271 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers19_o.bag "> pliers19_o.bag </a>| 5.7
-272 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers20_o.bag "> pliers20_o.bag </a>| 7.0
-273 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers21_o.bag "> pliers21_o.bag </a>| 11.9
-274 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers22_o.bag "> pliers22_o.bag </a>| 10.4
-275 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers23_o.bag "> pliers23_o.bag </a>| 14.7
-276 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers24_o.bag "> pliers24_o.bag </a>| 13.9
-277 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers25_o.bag "> pliers25_o.bag </a>| 10.9
-278 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/ pliers26_o.bag "> pliers26_o.bag </a>| 12.2
-279 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube01_o.bag "> rubikscube01_o.bag </a>| 12.1
-280 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube02_o.bag "> rubikscube02_o.bag </a>| 8.4
-281 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube03_o.bag "> rubikscube03_o.bag </a>| 9.3
-282 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube04_o.bag "> rubikscube04_o.bag </a>| 14.0
-283 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube05_o.bag "> rubikscube05_o.bag </a>| 11.3
-284 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube06_o.bag "> rubikscube06_o.bag </a>| 8.6
-285 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube07_o.bag "> rubikscube07_o.bag </a>| 8.5
-286 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube08_o.bag "> rubikscube08_o.bag </a>| 8.5
-287 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube09_o.bag "> rubikscube09_o.bag </a>| 15.7
-288 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube10_o.bag "> rubikscube10_o.bag </a>| 7.6
-289 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube11_o.bag "> rubikscube11_o.bag </a>| 13.1
-290 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube12_o.bag "> rubikscube12_o.bag </a>| 10.5
-291 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube13_o.bag "> rubikscube13_o.bag </a>| 8.4
-292 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube14_o.bag "> rubikscube14_o.bag </a>| 6.7
-293 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube15_o.bag "> rubikscube15_o.bag </a>| 8.5
-294 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube16_o.bag "> rubikscube16_o.bag </a>| 10.8
-295 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube17_o.bag "> rubikscube17_o.bag </a>| 13.1
-296 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube18_o.bag "> rubikscube18_o.bag </a>| 10.0
-297 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube19_o.bag "> rubikscube19_o.bag </a>| 5.1
-298 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube20_o.bag "> rubikscube20_o.bag </a>| 7.1
-299 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube26_o.bag "> rubikscube26_o.bag </a>| 15.9
-300 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube27_o.bag "> rubikscube27_o.bag </a>| 24.5
-301 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube28_o.bag "> rubikscube28_o.bag </a>| 33.0
-302 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube29_o.bag "> rubikscube29_o.bag </a>| 52.6
-303 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube30_o.bag "> rubikscube30_o.bag </a>| 22.1
-304 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube31_o.bag "> rubikscube31_o.bag </a>| 20.6
-305 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/ rubikscube32_o.bag "> rubikscube32_o.bag </a>| 28.0
-306 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox01_o.bag "> treasurebox01_o.bag </a>| 13.6
-307 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox02_o.bag "> treasurebox02_o.bag </a>| 9.1
-308 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox03_o.bag "> treasurebox03_o.bag </a>| 7.8
-309 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox04_o.bag "> treasurebox04_o.bag </a>| 8.9
-310 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox05_o.bag "> treasurebox05_o.bag </a>| 7.6
-311 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox06_o.bag "> treasurebox06_o.bag </a>| 7.0
-312 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox07_o.bag "> treasurebox07_o.bag </a>| 6.9
-313 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox08_o.bag "> treasurebox08_o.bag </a>| 7.9
-314 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox09_o.bag "> treasurebox09_o.bag </a>| 9.9
-315 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox10_o.bag "> treasurebox10_o.bag </a>| 8.3
-316 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox11_o.bag "> treasurebox11_o.bag </a>| 8.3
-317 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox12_o.bag "> treasurebox12_o.bag </a>| 7.5
-318 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox13_o.bag "> treasurebox13_o.bag </a>| 7.1
-319 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox14_o.bag "> treasurebox14_o.bag </a>| 7.7
-320 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox15_o.bag "> treasurebox15_o.bag </a>| 6.5
-321 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox16_o.bag "> treasurebox16_o.bag </a>| 7.2
-322 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox17_o.bag "> treasurebox17_o.bag </a>| 9.0
-323 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox18_o.bag "> treasurebox18_o.bag </a>| 7.1
-324 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox19_o.bag "> treasurebox19_o.bag </a>| 7.5
-325 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox20_o.bag "> treasurebox20_o.bag </a>| 8.4
-326 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox21_o.bag "> treasurebox21_o.bag </a>| 12.7
-327 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox22_o.bag "> treasurebox22_o.bag </a>| 15.2
-328 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox23_o.bag "> treasurebox23_o.bag </a>| 14.2
-329 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox24_o.bag "> treasurebox24_o.bag </a>| 11.9
-330 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox25_o.bag "> treasurebox25_o.bag </a>| 20.1
-331 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/ treasurebox26_o.bag "> treasurebox26_o.bag </a>| 13.4
-332 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod01_o.bag "> tripod01_o.bag </a>| 18.7
-333 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod02_o.bag "> tripod02_o.bag </a>| 7.6
-334 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod03_o.bag "> tripod03_o.bag </a>| 6.5
-335 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod04_o.bag "> tripod04_o.bag </a>| 7.7
-336 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod05_o.bag "> tripod05_o.bag </a>| 7.5
-337 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod06_o.bag "> tripod06_o.bag </a>| 10.9
-338 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod07_o.bag "> tripod07_o.bag </a>| 7.8
-339 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod08_o.bag "> tripod08_o.bag </a>| 12.5
-340 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod09_o.bag "> tripod09_o.bag </a>| 8.5
-341 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod10_o.bag "> tripod10_o.bag </a>| 6.8
-342 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod11_o.bag "> tripod11_o.bag </a>| 9.8
-343 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod12_o.bag "> tripod12_o.bag </a>| 11.2
-344 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod13_o.bag "> tripod13_o.bag </a>| 7.0
-345 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod14_o.bag "> tripod14_o.bag </a>| 6.5
-346 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod15_o.bag "> tripod15_o.bag </a>| 7.5
-347 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod16_o.bag "> tripod16_o.bag </a>| 11.5
-348 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod17_o.bag "> tripod17_o.bag </a>| 7.2
-349 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod18_o.bag "> tripod18_o.bag </a>| 10.7
-350 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod19_o.bag "> tripod19_o.bag </a>| 7.9
-351 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod20_o.bag "> tripod20_o.bag </a>| 9.7
-352 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod21_o.bag "> tripod21_o.bag </a>| 13.0
-353 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod22_o.bag "> tripod22_o.bag </a>| 10.3
-354 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod23_o.bag "> tripod23_o.bag </a>| 15.4
-355 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod24_o.bag "> tripod24_o.bag </a>| 13.6
-356 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod25_o.bag "> tripod25_o.bag </a>| 19.9
-357 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/ tripod26_o.bag "> tripod26_o.bag </a>| 14.5
+0 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book01_o.bag "> book01_o.bag </a>| 12.7
+1 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book02_o.bag "> book02_o.bag </a>| 8.7
+2 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book03_o.bag "> book03_o.bag </a>| 11.0
+3 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book04_o.bag "> book04_o.bag </a>| 8.7
+4 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book05_o.bag "> book05_o.bag </a>| 8.6
+5 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book06_o.bag "> book06_o.bag </a>| 8.8
+6 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book07_o.bag "> book07_o.bag </a>| 8.7
+7 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book08_o.bag "> book08_o.bag </a>| 8.0
+8 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book09_o.bag "> book09_o.bag </a>| 10.1
+9 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book10_o.bag "> book10_o.bag </a>| 8.6
+10 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book11_o.bag "> book11_o.bag </a>| 8.4
+11 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book12_o.bag "> book12_o.bag </a>| 9.0
+12 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book13_o.bag "> book13_o.bag </a>| 9.4
+13 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book14_o.bag "> book14_o.bag </a>| 11.4
+14 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book15_o.bag "> book15_o.bag </a>| 6.8
+15 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book16_o.bag "> book16_o.bag </a>| 9.0
+16 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book17_o.bag "> book17_o.bag </a>| 11.3
+17 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book18_o.bag "> book18_o.bag </a>| 11.4
+18 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book19_o.bag "> book19_o.bag </a>| 7.9
+19 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book20_o.bag "> book20_o.bag </a>| 9.0
+20 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book22_o.bag "> book22_o.bag </a>| 15.4
+21 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book23_o.bag "> book23_o.bag </a>| 18.1
+22 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book25_o.bag "> book25_o.bag </a>| 26.9
+23 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book26_o.bag "> book26_o.bag </a>| 16.3
+24 | <img src='./images/objects/book.JPG' alt='book' height='30'> |<a href="https://zenodo.org/record/1036660/files/book27_o.bag "> book27_o.bag </a>| 38.9
+25 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet01_o.bag "> cabinet01_o.bag </a>| 15.1
+26 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet02_o.bag "> cabinet02_o.bag </a>| 14.4
+27 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet03_o.bag "> cabinet03_o.bag </a>| 8.2
+28 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet04_o.bag "> cabinet04_o.bag </a>| 11.5
+29 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet05_o.bag "> cabinet05_o.bag </a>| 13.3
+30 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet06_o.bag "> cabinet06_o.bag </a>| 12.0
+31 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet07_o.bag "> cabinet07_o.bag </a>| 11.9
+32 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet08_o.bag "> cabinet08_o.bag </a>| 11.1
+33 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet09_o.bag "> cabinet09_o.bag </a>| 19.8
+34 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet10_o.bag "> cabinet10_o.bag </a>| 15.2
+35 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet11_o.bag "> cabinet11_o.bag </a>| 11.7
+36 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet12_o.bag "> cabinet12_o.bag </a>| 16.5
+37 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet13_o.bag "> cabinet13_o.bag </a>| 9.6
+38 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet14_o.bag "> cabinet14_o.bag </a>| 13.0
+39 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet15_o.bag "> cabinet15_o.bag </a>| 15.7
+40 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet16_o.bag "> cabinet16_o.bag </a>| 12.7
+41 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet17_o.bag "> cabinet17_o.bag </a>| 12.8
+42 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet18_o.bag "> cabinet18_o.bag </a>| 9.0
+43 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet19_o.bag "> cabinet19_o.bag </a>| 10.5
+44 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet20_o.bag "> cabinet20_o.bag </a>| 14.0
+45 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet21_o.bag "> cabinet21_o.bag </a>| 12.6
+46 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet22_o.bag "> cabinet22_o.bag </a>| 16.0
+47 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet23_o.bag "> cabinet23_o.bag </a>| 16.6
+48 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet24_o.bag "> cabinet24_o.bag </a>| 11.6
+49 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet25_o.bag "> cabinet25_o.bag </a>| 14.2
+50 | <img src='./images/objects/cabinet.JPG' alt='cabinet' height='30'> |<a href="https://zenodo.org/record/1036660/files/cabinet26_o.bag "> cabinet26_o.bag </a>| 9.6
+51 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox01_o.bag "> cardboardbox01_o.bag </a>| 13.7
+52 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox02_o.bag "> cardboardbox02_o.bag </a>| 7.4
+53 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox03_o.bag "> cardboardbox03_o.bag </a>| 8.9
+54 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox04_o.bag "> cardboardbox04_o.bag </a>| 6.6
+55 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox05_o.bag "> cardboardbox05_o.bag </a>| 8.4
+56 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox06_o.bag "> cardboardbox06_o.bag </a>| 7.4
+57 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox07_o.bag "> cardboardbox07_o.bag </a>| 6.8
+58 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox08_o.bag "> cardboardbox08_o.bag </a>| 5.7
+59 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox09_o.bag "> cardboardbox09_o.bag </a>| 6.6
+60 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox10_o.bag "> cardboardbox10_o.bag </a>| 7.5
+61 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox11_o.bag "> cardboardbox11_o.bag </a>| 9.2
+62 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox12_o.bag "> cardboardbox12_o.bag </a>| 9.0
+63 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox13_o.bag "> cardboardbox13_o.bag </a>| 6.9
+64 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox14_o.bag "> cardboardbox14_o.bag </a>| 9.1
+65 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox15_o.bag "> cardboardbox15_o.bag </a>| 7.5
+66 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox16_o.bag "> cardboardbox16_o.bag </a>| 7.0
+67 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox17_o.bag "> cardboardbox17_o.bag </a>| 7.7
+68 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox18_o.bag "> cardboardbox18_o.bag </a>| 6.9
+69 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox19_o.bag "> cardboardbox19_o.bag </a>| 7.7
+70 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox20_o.bag "> cardboardbox20_o.bag </a>| 5.8
+71 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox21_o.bag "> cardboardbox21_o.bag </a>| 7.9
+72 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox22_o.bag "> cardboardbox22_o.bag </a>| 15.8
+73 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox23_o.bag "> cardboardbox23_o.bag </a>| 12.5
+74 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox24_o.bag "> cardboardbox24_o.bag </a>| 21.4
+75 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox25_o.bag "> cardboardbox25_o.bag </a>| 15.1
+76 | <img src='./images/objects/cardboardbox.JPG' alt='cardboardbox' height='30'> |<a href="https://zenodo.org/record/1036660/files/cardboardbox26_o.bag "> cardboardbox26_o.bag </a>| 10.4
+77 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp01_o.bag "> clamp01_o.bag </a>| 13.0
+78 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp02_o.bag "> clamp02_o.bag </a>| 7.4
+79 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp03_o.bag "> clamp03_o.bag </a>| 10.6
+80 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp04_o.bag "> clamp04_o.bag </a>| 7.0
+81 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp05_o.bag "> clamp05_o.bag </a>| 7.5
+82 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp06_o.bag "> clamp06_o.bag </a>| 10.6
+83 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp07_o.bag "> clamp07_o.bag </a>| 8.1
+84 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp08_o.bag "> clamp08_o.bag </a>| 10.3
+85 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp09_o.bag "> clamp09_o.bag </a>| 5.9
+86 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp10_o.bag "> clamp10_o.bag </a>| 8.1
+87 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp11_o.bag "> clamp11_o.bag </a>| 8.4
+88 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp12_o.bag "> clamp12_o.bag </a>| 10.3
+89 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp13_o.bag "> clamp13_o.bag </a>| 6.5
+90 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp14_o.bag "> clamp14_o.bag </a>| 5.9
+91 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp15_o.bag "> clamp15_o.bag </a>| 7.2
+92 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp16_o.bag "> clamp16_o.bag </a>| 9.9
+93 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp17_o.bag "> clamp17_o.bag </a>| 7.7
+94 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp18_o.bag "> clamp18_o.bag </a>| 6.1
+95 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp19_o.bag "> clamp19_o.bag </a>| 8.6
+96 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp20_o.bag "> clamp20_o.bag </a>| 9.8
+97 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp22_o.bag "> clamp22_o.bag </a>| 11.7
+98 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp23_o.bag "> clamp23_o.bag </a>| 14.9
+99 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp24_o.bag "> clamp24_o.bag </a>| 11.5
+100 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp25_o.bag "> clamp25_o.bag </a>| 15.1
+101 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp26_o.bag "> clamp26_o.bag </a>| 13.3
+102 | <img src='./images/objects/clamp.JPG' alt='clamp' height='30'> |<a href="https://zenodo.org/record/1036660/files/clamp27_o.bag "> clamp27_o.bag </a>| 15.2
+103 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule01_o.bag "> foldingrule01_o.bag </a>| 20.1
+104 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule02_o.bag "> foldingrule02_o.bag </a>| 7.2
+105 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule03_o.bag "> foldingrule03_o.bag </a>| 6.9
+106 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule04_o.bag "> foldingrule04_o.bag </a>| 8.0
+107 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule05_o.bag "> foldingrule05_o.bag </a>| 9.3
+108 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule06_o.bag "> foldingrule06_o.bag </a>| 14.2
+109 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule07_o.bag "> foldingrule07_o.bag </a>| 8.0
+110 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule08_o.bag "> foldingrule08_o.bag </a>| 7.5
+111 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule09_o.bag "> foldingrule09_o.bag </a>| 5.9
+112 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule10_o.bag "> foldingrule10_o.bag </a>| 7.5
+113 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule11_o.bag "> foldingrule11_o.bag </a>| 8.4
+114 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule12_o.bag "> foldingrule12_o.bag </a>| 12.1
+115 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule13_o.bag "> foldingrule13_o.bag </a>| 8.2
+116 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule14_o.bag "> foldingrule14_o.bag </a>| 13.9
+117 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule15_o.bag "> foldingrule15_o.bag </a>| 9.4
+118 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule16_o.bag "> foldingrule16_o.bag </a>| 11.0
+119 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule17_o.bag "> foldingrule17_o.bag </a>| 11.4
+120 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule18_o.bag "> foldingrule18_o.bag </a>| 10.2
+121 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule19_o.bag "> foldingrule19_o.bag </a>| 6.2
+122 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule20_o.bag "> foldingrule20_o.bag </a>| 8.2
+123 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule21_o.bag "> foldingrule21_o.bag </a>| 44.0
+124 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule22_o.bag "> foldingrule22_o.bag </a>| 69.0
+125 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule23_o.bag "> foldingrule23_o.bag </a>| 67.0
+126 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule24_o.bag "> foldingrule24_o.bag </a>| 56.3
+127 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule25_o.bag "> foldingrule25_o.bag </a>| 52.2
+128 | <img src='./images/objects/foldingrule.JPG' alt='foldingrule' height='30'> |<a href="https://zenodo.org/record/1036660/files/foldingrule26_o.bag "> foldingrule26_o.bag </a>| 27.6
+129 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe01_o.bag "> globe01_o.bag </a>| 9.5
+130 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe02_o.bag "> globe02_o.bag </a>| 8.5
+131 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe03_o.bag "> globe03_o.bag </a>| 8.5
+132 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe04_o.bag "> globe04_o.bag </a>| 9.7
+133 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe05_o.bag "> globe05_o.bag </a>| 6.5
+134 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe06_o.bag "> globe06_o.bag </a>| 7.5
+135 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe07_o.bag "> globe07_o.bag </a>| 8.3
+136 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe08_o.bag "> globe08_o.bag </a>| 6.6
+137 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe09_o.bag "> globe09_o.bag </a>| 10.0
+138 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe10_o.bag "> globe10_o.bag </a>| 8.8
+139 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe11_o.bag "> globe11_o.bag </a>| 8.5
+140 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe12_o.bag "> globe12_o.bag </a>| 9.4
+141 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe13_o.bag "> globe13_o.bag </a>| 9.4
+142 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe14_o.bag "> globe14_o.bag </a>| 8.0
+143 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe15_o.bag "> globe15_o.bag </a>| 7.9
+144 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe16_o.bag "> globe16_o.bag </a>| 8.7
+145 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe17_o.bag "> globe17_o.bag </a>| 8.6
+146 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe18_o.bag "> globe18_o.bag </a>| 10.5
+147 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe19_o.bag "> globe19_o.bag </a>| 8.6
+148 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe20_o.bag "> globe20_o.bag </a>| 7.9
+149 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe21_o.bag "> globe21_o.bag </a>| 19.0
+150 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe22_o.bag "> globe22_o.bag </a>| 18.0
+151 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe23_o.bag "> globe23_o.bag </a>| 23.0
+152 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe24_o.bag "> globe24_o.bag </a>| 9.2
+153 | <img src='./images/objects/globe.JPG' alt='globe' height='30'> |<a href="https://zenodo.org/record/1036660/files/globe25_o.bag "> globe25_o.bag </a>| 14.1
+154 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea01_o.bag "> ikea01_o.bag </a>| 19.6
+155 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea02_o.bag "> ikea02_o.bag </a>| 7.4
+156 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea03_o.bag "> ikea03_o.bag </a>| 12.3
+157 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea04_o.bag "> ikea04_o.bag </a>| 7.7
+158 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea05_o.bag "> ikea05_o.bag </a>| 8.3
+159 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea06_o.bag "> ikea06_o.bag </a>| 11.0
+160 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea07_o.bag "> ikea07_o.bag </a>| 8.2
+161 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea08_o.bag "> ikea08_o.bag </a>| 2.7
+162 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea09_o.bag "> ikea09_o.bag </a>| 3.0
+163 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea10_o.bag "> ikea10_o.bag </a>| 5.9
+164 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea11_o.bag "> ikea11_o.bag </a>| 6.0
+165 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea12_o.bag "> ikea12_o.bag </a>| 9.8
+166 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea13_o.bag "> ikea13_o.bag </a>| 6.6
+167 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea14_o.bag "> ikea14_o.bag </a>| 5.4
+168 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea15_o.bag "> ikea15_o.bag </a>| 5.0
+169 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea16_o.bag "> ikea16_o.bag </a>| 6.2
+170 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea17_o.bag "> ikea17_o.bag </a>| 7.4
+171 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea18_o.bag "> ikea18_o.bag </a>| 7.5
+172 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea19_o.bag "> ikea19_o.bag </a>| 9.0
+173 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea20_o.bag "> ikea20_o.bag </a>| 7.2
+174 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea22_o.bag "> ikea22_o.bag </a>| 16.0
+175 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea23_o.bag "> ikea23_o.bag </a>| 14.8
+176 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea24_o.bag "> ikea24_o.bag </a>| 13.2
+177 | <img src='./images/objects/ikea.JPG' alt='ikea' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikea25_o.bag "> ikea25_o.bag </a>| 24.2
+178 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall01_o.bag "> ikeasmall01_o.bag </a>| 8.6
+179 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall02_o.bag "> ikeasmall02_o.bag </a>| 9.5
+180 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall03_o.bag "> ikeasmall03_o.bag </a>| 10.4
+181 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall04_o.bag "> ikeasmall04_o.bag </a>| 12.0
+182 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall05_o.bag "> ikeasmall05_o.bag </a>| 8.6
+183 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall06_o.bag "> ikeasmall06_o.bag </a>| 9.1
+184 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall07_o.bag "> ikeasmall07_o.bag </a>| 7.6
+185 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall08_o.bag "> ikeasmall08_o.bag </a>| 9.1
+186 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall09_o.bag "> ikeasmall09_o.bag </a>| 11.8
+187 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall10_o.bag "> ikeasmall10_o.bag </a>| 16.3
+188 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall11_o.bag "> ikeasmall11_o.bag </a>| 10.3
+189 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall12_o.bag "> ikeasmall12_o.bag </a>| 9.4
+190 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall13_o.bag "> ikeasmall13_o.bag </a>| 9.0
+191 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall14_o.bag "> ikeasmall14_o.bag </a>| 8.3
+192 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall15_o.bag "> ikeasmall15_o.bag </a>| 8.6
+193 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall16_o.bag "> ikeasmall16_o.bag </a>| 11.6
+194 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall17_o.bag "> ikeasmall17_o.bag </a>| 10.7
+195 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall18_o.bag "> ikeasmall18_o.bag </a>| 8.1
+196 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall19_o.bag "> ikeasmall19_o.bag </a>| 7.3
+197 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall20_o.bag "> ikeasmall20_o.bag </a>| 13.5
+198 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall21_o.bag "> ikeasmall21_o.bag </a>| 12.1
+199 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall22_o.bag "> ikeasmall22_o.bag </a>| 10.1
+200 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall23_o.bag "> ikeasmall23_o.bag </a>| 10.1
+201 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall24_o.bag "> ikeasmall24_o.bag </a>| 9.8
+202 | <img src='./images/objects/ikeasmall.JPG' alt='ikeasmall' height='30'> |<a href="https://zenodo.org/record/1036660/files/ikeasmall25_o.bag "> ikeasmall25_o.bag </a>| 9.9
+203 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop01_o.bag "> laptop01_o.bag </a>| 6.2
+204 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop02_o.bag "> laptop02_o.bag </a>| 6.9
+205 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop03_o.bag "> laptop03_o.bag </a>| 6.6
+206 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop04_o.bag "> laptop04_o.bag </a>| 6.4
+207 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop05_o.bag "> laptop05_o.bag </a>| 6.2
+208 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop06_o.bag "> laptop06_o.bag </a>| 6.9
+209 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop07_o.bag "> laptop07_o.bag </a>| 4.2
+210 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop08_o.bag "> laptop08_o.bag </a>| 5.9
+211 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop09_o.bag "> laptop09_o.bag </a>| 7.5
+212 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop10_o.bag "> laptop10_o.bag </a>| 7.2
+213 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop11_o.bag "> laptop11_o.bag </a>| 9.6
+214 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop12_o.bag "> laptop12_o.bag </a>| 8.0
+215 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop13_o.bag "> laptop13_o.bag </a>| 4.5
+216 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop14_o.bag "> laptop14_o.bag </a>| 8.3
+217 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop15_o.bag "> laptop15_o.bag </a>| 7.3
+218 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop16_o.bag "> laptop16_o.bag </a>| 8.7
+219 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop17_o.bag "> laptop17_o.bag </a>| 7.4
+220 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop18_o.bag "> laptop18_o.bag </a>| 7.2
+221 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop19_o.bag "> laptop19_o.bag </a>| 9.1
+222 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop20_o.bag "> laptop20_o.bag </a>| 10.1
+223 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop22_o.bag "> laptop22_o.bag </a>| 14.9
+224 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop23_o.bag "> laptop23_o.bag </a>| 15.4
+225 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop24_o.bag "> laptop24_o.bag </a>| 23.2
+226 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop25_o.bag "> laptop25_o.bag </a>| 27.2
+227 | <img src='./images/objects/laptop.JPG' alt='laptop' height='30'> |<a href="https://zenodo.org/record/1036660/files/laptop26_o.bag "> laptop26_o.bag </a>| 25.2
+228 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave01_o.bag "> microwave01_o.bag </a>| 9.5
+229 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave02_o.bag "> microwave02_o.bag </a>| 8.7
+230 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave03_o.bag "> microwave03_o.bag </a>| 21.1
+231 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave04_o.bag "> microwave04_o.bag </a>| 18.0
+232 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave05_o.bag "> microwave05_o.bag </a>| 14.9
+233 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave06_o.bag "> microwave06_o.bag </a>| 7.7
+234 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave07_o.bag "> microwave07_o.bag </a>| 9.3
+235 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave08_o.bag "> microwave08_o.bag </a>| 9.5
+236 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave09_o.bag "> microwave09_o.bag </a>| 10.2
+237 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave10_o.bag "> microwave10_o.bag </a>| 10.4
+238 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave11_o.bag "> microwave11_o.bag </a>| 11.1
+239 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave12_o.bag "> microwave12_o.bag </a>| 8.2
+240 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave13_o.bag "> microwave13_o.bag </a>| 8.2
+241 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave14_o.bag "> microwave14_o.bag </a>| 9.7
+242 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave15_o.bag "> microwave15_o.bag </a>| 14.4
+243 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave16_o.bag "> microwave16_o.bag </a>| 10.3
+244 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave17_o.bag "> microwave17_o.bag </a>| 15.0
+245 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave18_o.bag "> microwave18_o.bag </a>| 9.2
+246 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave19_o.bag "> microwave19_o.bag </a>| 8.7
+247 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave20_o.bag "> microwave20_o.bag </a>| 10.6
+248 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave21_o.bag "> microwave21_o.bag </a>| 11.1
+249 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave22_o.bag "> microwave22_o.bag </a>| 6.5
+250 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave23_o.bag "> microwave23_o.bag </a>| 10.6
+251 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave24_o.bag "> microwave24_o.bag </a>| 9.9
+252 | <img src='./images/objects/microwave.JPG' alt='microwave' height='30'> |<a href="https://zenodo.org/record/1036660/files/microwave25_o.bag "> microwave25_o.bag </a>| 8.9
+253 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers01_o.bag "> pliers01_o.bag </a>| 7.4
+254 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers02_o.bag "> pliers02_o.bag </a>| 8.0
+255 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers03_o.bag "> pliers03_o.bag </a>| 6.3
+256 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers04_o.bag "> pliers04_o.bag </a>| 9.1
+257 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers05_o.bag "> pliers05_o.bag </a>| 11.1
+258 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers06_o.bag "> pliers06_o.bag </a>| 6.2
+259 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers07_o.bag "> pliers07_o.bag </a>| 7.8
+260 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers08_o.bag "> pliers08_o.bag </a>| 10.5
+261 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers09_o.bag "> pliers09_o.bag </a>| 6.9
+262 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers10_o.bag "> pliers10_o.bag </a>| 8.7
+263 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers11_o.bag "> pliers11_o.bag </a>| 10.1
+264 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers12_o.bag "> pliers12_o.bag </a>| 6.9
+265 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers13_o.bag "> pliers13_o.bag </a>| 5.8
+266 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers14_o.bag "> pliers14_o.bag </a>| 10.4
+267 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers15_o.bag "> pliers15_o.bag </a>| 6.6
+268 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers16_o.bag "> pliers16_o.bag </a>| 8.5
+269 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers17_o.bag "> pliers17_o.bag </a>| 7.8
+270 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers18_o.bag "> pliers18_o.bag </a>| 5.2
+271 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers19_o.bag "> pliers19_o.bag </a>| 5.7
+272 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers20_o.bag "> pliers20_o.bag </a>| 7.0
+273 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers21_o.bag "> pliers21_o.bag </a>| 11.9
+274 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers22_o.bag "> pliers22_o.bag </a>| 10.4
+275 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers23_o.bag "> pliers23_o.bag </a>| 14.7
+276 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers24_o.bag "> pliers24_o.bag </a>| 13.9
+277 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers25_o.bag "> pliers25_o.bag </a>| 10.9
+278 | <img src='./images/objects/pliers.JPG' alt='pliers' height='30'> |<a href="https://zenodo.org/record/1036660/files/pliers26_o.bag "> pliers26_o.bag </a>| 12.2
+279 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube01_o.bag "> rubikscube01_o.bag </a>| 12.1
+280 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube02_o.bag "> rubikscube02_o.bag </a>| 8.4
+281 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube03_o.bag "> rubikscube03_o.bag </a>| 9.3
+282 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube04_o.bag "> rubikscube04_o.bag </a>| 14.0
+283 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube05_o.bag "> rubikscube05_o.bag </a>| 11.3
+284 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube06_o.bag "> rubikscube06_o.bag </a>| 8.6
+285 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube07_o.bag "> rubikscube07_o.bag </a>| 8.5
+286 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube08_o.bag "> rubikscube08_o.bag </a>| 8.5
+287 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube09_o.bag "> rubikscube09_o.bag </a>| 15.7
+288 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube10_o.bag "> rubikscube10_o.bag </a>| 7.6
+289 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube11_o.bag "> rubikscube11_o.bag </a>| 13.1
+290 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube12_o.bag "> rubikscube12_o.bag </a>| 10.5
+291 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube13_o.bag "> rubikscube13_o.bag </a>| 8.4
+292 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube14_o.bag "> rubikscube14_o.bag </a>| 6.7
+293 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube15_o.bag "> rubikscube15_o.bag </a>| 8.5
+294 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube16_o.bag "> rubikscube16_o.bag </a>| 10.8
+295 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube17_o.bag "> rubikscube17_o.bag </a>| 13.1
+296 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube18_o.bag "> rubikscube18_o.bag </a>| 10.0
+297 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube19_o.bag "> rubikscube19_o.bag </a>| 5.1
+298 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube20_o.bag "> rubikscube20_o.bag </a>| 7.1
+299 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube26_o.bag "> rubikscube26_o.bag </a>| 15.9
+300 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube27_o.bag "> rubikscube27_o.bag </a>| 24.5
+301 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube28_o.bag "> rubikscube28_o.bag </a>| 33.0
+302 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube29_o.bag "> rubikscube29_o.bag </a>| 52.6
+303 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube30_o.bag "> rubikscube30_o.bag </a>| 22.1
+304 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube31_o.bag "> rubikscube31_o.bag </a>| 20.6
+305 | <img src='./images/objects/rubikscube.JPG' alt='rubikscube' height='30'> |<a href="https://zenodo.org/record/1036660/files/rubikscube32_o.bag "> rubikscube32_o.bag </a>| 28.0
+306 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox01_o.bag "> treasurebox01_o.bag </a>| 13.6
+307 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox02_o.bag "> treasurebox02_o.bag </a>| 9.1
+308 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox03_o.bag "> treasurebox03_o.bag </a>| 7.8
+309 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox04_o.bag "> treasurebox04_o.bag </a>| 8.9
+310 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox05_o.bag "> treasurebox05_o.bag </a>| 7.6
+311 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox06_o.bag "> treasurebox06_o.bag </a>| 7.0
+312 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox07_o.bag "> treasurebox07_o.bag </a>| 6.9
+313 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox08_o.bag "> treasurebox08_o.bag </a>| 7.9
+314 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox09_o.bag "> treasurebox09_o.bag </a>| 9.9
+315 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox10_o.bag "> treasurebox10_o.bag </a>| 8.3
+316 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox11_o.bag "> treasurebox11_o.bag </a>| 8.3
+317 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox12_o.bag "> treasurebox12_o.bag </a>| 7.5
+318 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox13_o.bag "> treasurebox13_o.bag </a>| 7.1
+319 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox14_o.bag "> treasurebox14_o.bag </a>| 7.7
+320 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox15_o.bag "> treasurebox15_o.bag </a>| 6.5
+321 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox16_o.bag "> treasurebox16_o.bag </a>| 7.2
+322 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox17_o.bag "> treasurebox17_o.bag </a>| 9.0
+323 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox18_o.bag "> treasurebox18_o.bag </a>| 7.1
+324 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox19_o.bag "> treasurebox19_o.bag </a>| 7.5
+325 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox20_o.bag "> treasurebox20_o.bag </a>| 8.4
+326 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox21_o.bag "> treasurebox21_o.bag </a>| 12.7
+327 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox22_o.bag "> treasurebox22_o.bag </a>| 15.2
+328 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox23_o.bag "> treasurebox23_o.bag </a>| 14.2
+329 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox24_o.bag "> treasurebox24_o.bag </a>| 11.9
+330 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox25_o.bag "> treasurebox25_o.bag </a>| 20.1
+331 | <img src='./images/objects/treasurebox.JPG' alt='treasurebox' height='30'> |<a href="https://zenodo.org/record/1036660/files/treasurebox26_o.bag "> treasurebox26_o.bag </a>| 13.4
+332 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod01_o.bag "> tripod01_o.bag </a>| 18.7
+333 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod02_o.bag "> tripod02_o.bag </a>| 7.6
+334 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod03_o.bag "> tripod03_o.bag </a>| 6.5
+335 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod04_o.bag "> tripod04_o.bag </a>| 7.7
+336 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod05_o.bag "> tripod05_o.bag </a>| 7.5
+337 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod06_o.bag "> tripod06_o.bag </a>| 10.9
+338 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod07_o.bag "> tripod07_o.bag </a>| 7.8
+339 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod08_o.bag "> tripod08_o.bag </a>| 12.5
+340 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod09_o.bag "> tripod09_o.bag </a>| 8.5
+341 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod10_o.bag "> tripod10_o.bag </a>| 6.8
+342 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod11_o.bag "> tripod11_o.bag </a>| 9.8
+343 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod12_o.bag "> tripod12_o.bag </a>| 11.2
+344 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod13_o.bag "> tripod13_o.bag </a>| 7.0
+345 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod14_o.bag "> tripod14_o.bag </a>| 6.5
+346 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod15_o.bag "> tripod15_o.bag </a>| 7.5
+347 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod16_o.bag "> tripod16_o.bag </a>| 11.5
+348 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod17_o.bag "> tripod17_o.bag </a>| 7.2
+349 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod18_o.bag "> tripod18_o.bag </a>| 10.7
+350 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod19_o.bag "> tripod19_o.bag </a>| 7.9
+351 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod20_o.bag "> tripod20_o.bag </a>| 9.7
+352 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod21_o.bag "> tripod21_o.bag </a>| 13.0
+353 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod22_o.bag "> tripod22_o.bag </a>| 10.3
+354 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod23_o.bag "> tripod23_o.bag </a>| 15.4
+355 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod24_o.bag "> tripod24_o.bag </a>| 13.6
+356 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod25_o.bag "> tripod25_o.bag </a>| 19.9
+357 | <img src='./images/objects/tripod.JPG' alt='tripod' height='30'> |<a href="https://zenodo.org/record/1036660/files/tripod26_o.bag "> tripod26_o.bag </a>| 14.5
