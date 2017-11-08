@@ -110,7 +110,7 @@ if __name__ == "__main__":
     parser.add_argument('--objects', nargs='*', default = 'all',
                         help='Object models to download. Pass \"--objects none\" to skip.')
     parser.add_argument('--interactions', nargs='*', default = 'all',
-                        help='Interactions to download. You can specify individual interactions (<objectName><InteractionIndex>) or groups of interactions by object (<objectName>) or by interaction property, e.g. \"dark\" or \"with_ft\" (see groups with --groups)')
+                        help='Interactions to download. You can specify individual interactions (<objectName><InteractionIndex>) or groups of interactions by object (<objectName>) or by interaction property, e.g. \"dark\" or \"with_ft\" (see groups with --groups). Pass \"--interactions none\" to skip.')
     parser.add_argument('--groups', action='store_true', default = False,
                         help='Print the groups of interactions available.')
     parser.add_argument('--ros', action='store_true', default = False,
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     
     if args.objects == 'all': args.objects = all_objects
     
-    if args.objects != 'none':
+    if args.objects != ['none']:
         #Download the model files of the given objects
         for name in args.objects:
             if name not in all_objects:
@@ -174,51 +174,52 @@ if __name__ == "__main__":
     props_dict[8] = ft_meas
     
     #Download the interaction files requested
-    for inter in args.interactions:
-        #inter is an object name
-        if inter in all_objects:
-            print "Download all the interactions with " + inter
-            ii = csv.reader(open(ii_filename))
-            for i in ii:
-                if i[1] == inter:
-                    interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
-                    interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
-                    interaction_subfolder = interaction_obj_folder + i[0] + '/'
-                    if not check_url(dataset_url + interaction_file):
-                        print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
-                    else:                        
-                        download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                        if not args.no_decomp and not args.ros:
-                            print "Extracting"
-                            extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
-        #inter is a specific interaction
-        elif inter in all_interactions:
-            print "Download the interaction " + inter
-            object_name_int = inter[0:-2]
-            interaction_file = inter + ['_o.tar.gz','.bag'][args.ros]     
-            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + object_name_int + '/'
-            interaction_subfolder = interaction_obj_folder + inter  + '/'
-            if not check_url(dataset_url + interaction_file):
-                print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
-            else:                        
-                download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                if not args.no_decomp and not args.ros:
-                    print "Extracting"
-                    extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
-        else:
-            for prop_id in props_dict:
-                if inter in props_dict[prop_id]:
-                    print "Download the interactions by property: "  + inter
-                    ii = csv.reader(open(ii_filename))
-                    for i in ii:
-                        if i[prop_id] == deparse_property(inter):
-                            interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
-                            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
-                            interaction_subfolder = interaction_obj_folder  + i[0] + '/'
-                            if not check_url(dataset_url + interaction_file):
-                                print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
-                            else:                        
-                                download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                                if not args.no_decomp and not args.ros:
-                                    print "Extracting"
-                                    extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+    if args.interactions != 'none':
+        for inter in args.interactions:
+            #inter is an object name
+            if inter in all_objects:
+                print "Download all the interactions with " + inter
+                ii = csv.reader(open(ii_filename))
+                for i in ii:
+                    if i[1] == inter:
+                        interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
+                        interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
+                        interaction_subfolder = interaction_obj_folder + i[0] + '/'
+                        if not check_url(dataset_url + interaction_file):
+                            print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
+                        else:                        
+                            download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
+                            if not args.no_decomp and not args.ros:
+                                print "Extracting"
+                                extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+            #inter is a specific interaction
+            elif inter in all_interactions:
+                print "Download the interaction " + inter
+                object_name_int = inter[0:-2]
+                interaction_file = inter + ['_o.tar.gz','.bag'][args.ros]     
+                interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + object_name_int + '/'
+                interaction_subfolder = interaction_obj_folder + inter  + '/'
+                if not check_url(dataset_url + interaction_file):
+                    print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
+                else:                        
+                    download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
+                    if not args.no_decomp and not args.ros:
+                        print "Extracting"
+                        extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+            else:
+                for prop_id in props_dict:
+                    if inter in props_dict[prop_id]:
+                        print "Download the interactions by property: "  + inter
+                        ii = csv.reader(open(ii_filename))
+                        for i in ii:
+                            if i[prop_id] == deparse_property(inter):
+                                interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
+                                interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
+                                interaction_subfolder = interaction_obj_folder  + i[0] + '/'
+                                if not check_url(dataset_url + interaction_file):
+                                    print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
+                                else:                        
+                                    download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
+                                    if not args.no_decomp and not args.ros:
+                                        print "Extracting"
+                                        extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
