@@ -49,7 +49,7 @@ Please, contact Thomas Hoffmann (<thomas.hoffmann@tu-berlin.de>) to include your
 
 Object | Photo | Model
 -------|-------|------
-Book   | <img src="./images/objects/book.JPG" alt="Book" height="100">(http://google.com.au/) | <img src="./images/models/book.gif" alt="Book" height="100">
+Book   | <a href="https://www.computerhope.com/"><img src="./images/objects/book.JPG" alt="Book" height="100"></a> | <img src="./images/models/book.gif" alt="Book" height="100">
 Cabinet   | <img src="./images/objects/cabinet.JPG" alt="Cabinet" height="100"> | <img src="./images/models/cabinet.gif" alt="Cabinet" height="100">
 Cardboard box   | <img src="./images/objects/cardboardbox.JPG" alt="Cardboard box" height="100"> | <img src="./images/models/cardboardbox.gif" alt="Cardboard box" height="100">
 Clamp   | <img src="./images/objects/clamp.JPG" alt="Clamp" height="100"> | <img src="./images/models/clamp.gif" alt="Clamp" height="100">
