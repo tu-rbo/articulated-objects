@@ -14,14 +14,14 @@ You can download the data following the links below. We also provide the script 
 
 For example, `python rbo_downloader.py --output_dir ./mydatasetfolder --objects ikea globe --interactions dark` will download the models for the ikea furniture and the world globe and all the interactions with dark lighting conditions into the folder `mydatasetfolder`.
 
-### CSV files and images
+### Visualizing data in CSV files and images
 
 We provide the script [rbo_visualizer.py](./scripts/rbo_visualizer.py) to visualize the data and show how to read it and use it. You can visualize the RGB, depth, force/torque (wrenches) and/or joint state values for an interaction. To use the script you just need to provide as argument the folder with the interaction files and the flags for the types of data to visualize (`--rgb`, `--d`, `--ft`, and/or `--js`). 
 
 For example, `python rbo_visualizer.py ./mydatasetfolder/interactions/ikea/ikea01_0 --rgb --js` will start the visualization of the RGB images and joint states of the interaction in the provided folder. You can pause/resume the visualization pressing `Enter` in the terminal.
 
 
-### rosbags
+### Visualizing data in rosbags
 
 We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz) to visualize rosbags and models. To visualize rosbags of interactions together with the models of the articulated object (and the stick with the force/torque sensor if used), execute:
 
@@ -30,6 +30,8 @@ We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz)
 `python launch/play_recording.py <interaction_name>`
 
 the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that you want to visualize. You can type `python launch/play_recording.py -h` to see additional help. It is also possible to play a recording without starting rviz, which allows the use of custom launch configurations, if required.
+
+To make possible for the ROS package to locate the dataset, create a link to your downloaded data by executing the following within the folder of the ROS package: 'ln -s ~/folder_containing_rbo_dataset/ ./data'
 
 ## Contributing
 
