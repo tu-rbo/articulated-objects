@@ -83,8 +83,7 @@ all_objects = ['globe',
                'rubikscube',
                'microwave',
                'ikeasmall',
-               'cabinet',               
-               'folding_rule']
+               'cabinet']
                
 backgrounds = ['plain','textured','black']
 lightings = ['artificial','dark','natural']
@@ -183,27 +182,29 @@ if __name__ == "__main__":
             for i in ii:
                 if i[1] == inter:
                     interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
-                    interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1]
-                    interaction_subfolder = interaction_obj_folder + '/' + i[0]
+                    interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
+                    interaction_subfolder = interaction_obj_folder + i[0] + '/'
                     if not check_url(dataset_url + interaction_file):
                         print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
                     else:                        
                         download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                         if not args.no_decomp and not args.ros:
-                            extract_tgz(interaction_obj_folder + interaction_file, interaction_subfolder)
+                            print "Extracting"
+                            extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
         #inter is a specific interaction
         elif inter in all_interactions:
             print "Download the interaction " + inter
             object_name_int = inter[0:-2]
             interaction_file = inter + ['_o.tar.gz','.bag'][args.ros]     
-            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + object_name_int
-            interaction_subfolder = interaction_obj_folder + '/' + inter   
+            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + object_name_int + '/'
+            interaction_subfolder = interaction_obj_folder + inter  + '/'
             if not check_url(dataset_url + interaction_file):
                 print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
             else:                        
                 download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                 if not args.no_decomp and not args.ros:
-                    extract_tgz(interaction_obj_folder + interaction_file, interaction_subfolder)
+                    print "Extracting"
+                    extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
         else:
             for prop_id in props_dict:
                 if inter in props_dict[prop_id]:
@@ -212,11 +213,12 @@ if __name__ == "__main__":
                     for i in ii:
                         if i[prop_id] == deparse_property(inter):
                             interaction_file =  i[0] + ['_o.tar.gz','.bag'][args.ros]
-                            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1]
-                            interaction_subfolder = interaction_obj_folder + '/' + i[0]
+                            interaction_obj_folder = args.output_dir + '/rbo_dataset/interactions/' + i[1] + '/'
+                            interaction_subfolder = interaction_obj_folder  + i[0] + '/'
                             if not check_url(dataset_url + interaction_file):
                                 print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
                             else:                        
                                 download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
                                 if not args.no_decomp and not args.ros:
-                                    extract_tgz(interaction_obj_folder + interaction_file, interaction_subfolder)
+                                    print "Extracting"
+                                    extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
