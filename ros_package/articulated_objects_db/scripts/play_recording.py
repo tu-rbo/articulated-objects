@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import csv
 import rospkg
 import argparse
@@ -9,15 +11,15 @@ from time import sleep
 
 def start_rviz(use_ft):
 	if use_ft:
-		pcall = ["rviz", "-d", join(PACKAGE_PATH, "launch", "visualize_recording_ft.rviz")]
+		pcall = ["rviz", "-d", join(PACKAGE_PATH, "cfg", "visualize_recording_ft.rviz")]
 	else:
-		pcall = ["rviz", "-d", join(PACKAGE_PATH, "launch", "visualize_recording.rviz")]
+		pcall = ["rviz", "-d", join(PACKAGE_PATH, "cfg", "visualize_recording.rviz")]
 	return subprocess.Popen(pcall)
 
 def play_rosbag(found_row, bagname):
 	pcall = ["roslaunch", 
-		"articulated_objects_rbo", 
-		"play_recording.launch",
+		"articulated_objects_db", 
+		"play_recording.launch", 
 		"object:=" + found_row["Object"],
 		"bag:=" + bagname,
 		"config:=configuration_" + found_row["recording date(marker set id)"],
@@ -54,7 +56,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 
 	rospack = rospkg.RosPack()
-	PACKAGE_PATH = rospack.get_path('articulated_objects_rbo')
+	PACKAGE_PATH = rospack.get_path('articulated_objects_db')
 
 	interaction_name = args.bag
 	if args.bag.endswith("_o.bag"):
@@ -79,10 +81,10 @@ if __name__ == "__main__":
 	if found_row:
 
 		procs = []
-		if not args.norosplay:
+		if not args.norviz:
 			procs.append(start_rviz(found_row["force/torque sensor used"] == '1'))
 
-		if not args.norviz:
+		if not args.norosplay:
 			procs.append(play_rosbag(found_row, args.bag))
 
 		if procs:
