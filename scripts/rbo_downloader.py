@@ -15,6 +15,7 @@ import argparse
 import errno 
 import csv
 import ntpath
+import subprocess
 
 dataset_url = "https://zenodo.org/record/1036660/files/"
 interactions_index_url = dataset_url + "interactions_index.csv"
@@ -83,7 +84,8 @@ all_objects = ['globe',
                'rubikscube',
                'microwave',
                'ikeasmall',
-               'cabinet']
+               'cabinet',
+               'ftSensor']
                
 backgrounds = ['plain','textured','black']
 lightings = ['artificial','dark','natural']
@@ -189,9 +191,13 @@ if __name__ == "__main__":
                             print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
                         else:                        
                             download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                            if not args.no_decomp and not args.ros:
+                            if not args.no_decomp:
                                 print "Extracting"
-                                extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                                if not args.ros:
+                                    extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                                else:
+                                    pcall = ["rosbag", "decompress", interaction_obj_folder + interaction_file]
+                                    subprocess.call(pcall)
             #inter is a specific interaction
             elif inter in all_interactions:
                 print "Download the interaction " + inter
@@ -203,9 +209,13 @@ if __name__ == "__main__":
                     print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
                 else:                        
                     download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                    if not args.no_decomp and not args.ros:
+                    if not args.no_decomp:
                         print "Extracting"
-                        extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                        if not args.ros:
+                            extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                        else:
+                            pcall = ["rosbag", "decompress", interaction_obj_folder + interaction_file]
+                            subprocess.call(pcall)
             else:
                 for prop_id in props_dict:
                     if inter in props_dict[prop_id]:
@@ -220,6 +230,10 @@ if __name__ == "__main__":
                                     print "Connection error! Cannot download interaction " + interaction_file + " from url: " + dataset_url + interaction_file
                                 else:                        
                                     download_file(dataset_url + interaction_file, interaction_obj_folder + interaction_file)
-                                    if not args.no_decomp and not args.ros:
+                                    if not args.no_decomp:
                                         print "Extracting"
-                                        extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                                        if not args.ros:
+                                            extract_tgz(interaction_obj_folder + interaction_file, interaction_obj_folder)
+                                        else:
+                                            pcall = ["rosbag", "decompress", interaction_obj_folder + interaction_file]
+                                            subprocess.call(pcall)
