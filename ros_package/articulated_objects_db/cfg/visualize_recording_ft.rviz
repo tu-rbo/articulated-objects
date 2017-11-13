@@ -5,9 +5,9 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /TF1/Frames1
-        - /MarkerArray1/Status1
         - /Camera1/Visibility1
-      Splitter Ratio: 0.623529
+        - /ArticulatedObjectModel1/Status1
+      Splitter Ratio: 0.380392
     Tree Height: 323
   - Class: rviz/Selection
     Name: Selection
@@ -27,7 +27,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: PointCloud2
+    SyncSource: Camera
 Visualization Manager:
   Class: ""
   Displays:
@@ -108,8 +108,6 @@ Visualization Manager:
                 camera_rgb_optical_frame:
                   {}
           BlackEdge01With4Makers:
-            {}
-          CreditCardWith4Markers:
             rb0:
               rb1:
                 rb1_marker:
@@ -117,6 +115,8 @@ Visualization Manager:
               rb2:
                 rb2_marker:
                   {}
+          CreditCardWith4Markers:
+            {}
           TransparentBoxWith4Markers:
             {}
           ftSensor:
@@ -134,45 +134,6 @@ Visualization Manager:
         "": true
       Queue Size: 100
       Value: true
-    - Alpha: 1
-      Class: rviz/RobotModel
-      Collision Enabled: false
-      Enabled: true
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        rb0:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        rb1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        rb1_marker:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        rb2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        rb2_marker:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-      Name: ArticulatedObject
-      Robot Description: robot_description
-      TF Prefix: ""
-      Update Interval: 0
-      Value: true
-      Visual Enabled: true
     - Class: rviz/Image
       Enabled: false
       Image Topic: /camera/rgb/image_rect_color
@@ -238,8 +199,9 @@ Visualization Manager:
       Unreliable: false
       Value: true
       Visibility:
-        ArticulatedObject: true
+        ArticulatedObjectModel: true
         AxisMarkers: true
+        FTSensorModel: true
         Grid: false
         Image: true
         MarkerArray: true
@@ -247,8 +209,59 @@ Visualization Manager:
         TF: false
         Value: true
         WrenchStamped: true
-        ft Model: true
       Zoom Factor: 1
+    - Alpha: 1
+      Arrow Width: 0.1
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.1
+      Force Color: 204; 51; 51
+      History Length: 1
+      Name: WrenchStamped
+      Topic: /ft_sensor/netft_data
+      Torque Arrow Scale: 0.6
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        rb0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rb1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        rb1_marker:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rb2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        rb2_marker:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: ArticulatedObjectModel
+      Robot Description: ao_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
@@ -272,25 +285,12 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-      Name: ft Model
+      Name: FTSensorModel
       Robot Description: ft_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Alpha: 1
-      Arrow Width: 0.1
-      Class: rviz/WrenchStamped
-      Enabled: true
-      Force Arrow Scale: 0.1
-      Force Color: 204; 51; 51
-      History Length: 1
-      Name: WrenchStamped
-      Topic: /ft_sensor/netft_data
-      Torque Arrow Scale: 0.6
-      Torque Color: 204; 204; 51
-      Unreliable: false
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 0; 0; 127
@@ -315,7 +315,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 0.797899
+      Distance: 1.7639
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1

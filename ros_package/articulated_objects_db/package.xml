@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>articulated_objects_rbo</name>
+  <name>articulated_objects_db</name>
   <version>1.0.0</version>
   <description>The RBO Dataset for Articulated Objects and Interactions</description>
 
