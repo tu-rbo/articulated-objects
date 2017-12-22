@@ -31,5 +31,5 @@
         <include file="$(find articulated_objects_db)/data/objects/ftSensor/ftSensor.launch" />
     </group>
     
-    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock --pause $(find articulated_objects_db)/data/interactions/$(arg object)/$(arg bag)"/>
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock --pause --loop $(find articulated_objects_db)/data/interactions/$(arg object)/$(arg bag)"/>
 </launch>
