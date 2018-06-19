@@ -1,5 +1,15 @@
 The RBO dataset of articulated objects and interactions is a collection of 358 RGB-D video sequences (67:18 minutes) of humans manipulating 14 articulated objects under varying conditions (light, perspective, background, interaction). All sequences are annotated with ground truth of the poses of the rigid parts and the kinematic state of the articulated object (joint states) obtained with a motion capture system. We also provide complete kinematic models of these objects (kinematic structure and three-dimensional textured shape models). In 78 sequences the contact wrenches during the manipulation are also provided.
 
+If you are using this data, please cite:
+```
+@misc{1806.06465,
+  Author = {Roberto Martín-Martín and Clemens Eppner and Oliver Brock},
+  Title = {The RBO Dataset of Articulated Objects and Interactions},
+  Year = {2018},
+  Eprint = {arXiv:1806.06465},
+}
+```
+
 ## Data Structure and Usage
 
 All data is availabe in two versions: as csv files and images or as [rosbags](http://wiki.ros.org/rosbag). Since there are already a lot of tools available for handling rosbags we recommend the later one. Both versions contain time series of:
