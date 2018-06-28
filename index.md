@@ -35,9 +35,9 @@ For example, `python rbo_visualizer.py ./mydatasetfolder/interactions/ikea/ikea0
 
 We provide a [ROS package](./ros_package/ros_package_articulated_objects.tar.gz) to visualize rosbags and models. To visualize rosbags of interactions together with the models of the articulated object (and the stick with the force/torque sensor if used), execute:
 
-`rosrun play_recording.py <interaction_name>`
+`rosrun articulated_object_db play_recording.py <interaction_name>`
 
-the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that you want to visualize. You can type `rosrun play_recording.py -h` to see additional help. It is also possible to play a recording without starting rviz, which allows the use of custom launch configurations, if required.
+the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that you want to visualize. You can type `rosrun articulated_object_db play_recording.py -h` to see additional help. It is also possible to play a recording without starting rviz, which allows the use of custom launch configurations, if required.
 
 To make possible for the ROS package to locate the dataset, create a link to your downloaded data by executing the following within the folder of the ROS package: 'ln -s ~/folder_containing_rbo_dataset/ ./data'
 
