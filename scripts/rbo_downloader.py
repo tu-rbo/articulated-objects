@@ -142,12 +142,12 @@ if __name__ == "__main__":
     if args.objects != ['none']:
         #Download the model files of the given objects
         for name in args.objects:
+            model_file = name + ('.tar' if name == 'tripod' else '.tar.gz')
             if name not in all_objects:
                 print "Wrong object name passed: " + name    
-            elif not check_url(dataset_url + name + '.tar.gz'):
+            elif not check_url(dataset_url + model_file):
                 print "Connection error! Cannot download model of " + name
             else:
-                model_file = name + '.tar.gz'
                 download_file(dataset_url + model_file, args.output_dir + '/rbo_dataset/objects/' + model_file)
                 if not args.no_decomp:
                     extract_tgz(args.output_dir + '/rbo_dataset/objects/' +model_file, args.output_dir + '/rbo_dataset/objects/')
