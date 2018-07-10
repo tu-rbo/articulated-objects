@@ -175,6 +175,8 @@ if __name__ == "__main__":
     props_dict[7] = clutters
     props_dict[8] = ft_meas
     
+    if args.interactions == 'all': args.interactions = all_interactions
+    
     #Download the interaction files requested
     if args.interactions != 'none':
         for inter in args.interactions:
