@@ -41,7 +41,7 @@ the interaction_name is the name of the final rosbag (e.g. pliers01_o.bag) that 
 
 To make possible for the ROS package to locate the dataset, create a link to your downloaded data by executing the following within the folder of the ROS package: 'ln -s ~/folder_containing_rbo_dataset/ ./data'
 
-## Contributing
+## <a name="Contributing"></a>Contributing
 
 We are glad to augment our dataset with new models of articulated objects and/or sensor data of interactions with them. We can generate models of articulated objects from trajectories of the links tracked by a motion capture system (or any other 6D pose tracker) if you provide:
 * Shape models for each link
