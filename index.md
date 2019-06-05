@@ -49,7 +49,7 @@ We are glad to augment our dataset with new models of articulated objects and/or
 If your interaction data includes images, please provide also the pose of the camera wrt. the object.
 If you provide interaction wrenches, provide also the dynamic properties (mass, center of Mass, inertia matrix) of tool between the force/torque sensor and the object and the pose of the sensor wrt. object. 
 
-Please, contact Thomas Hoffmann (<thomas.hoffmann@tu-berlin.de>) to include your data into the dataset.
+Please, contact Manuel Baum (<baum@tu-berlin.de>) to include your data into the dataset.
 
 <!-- ## Citation -->
 
