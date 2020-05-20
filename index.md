@@ -9,6 +9,7 @@ If you are using this data, please cite:
   Eprint = {arXiv:1806.06465},
 }
 ```
+This dataset is published under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 ## Data Structure and Usage
 
